@@ -128,7 +128,7 @@ input[type=text], input[type=email] {
 button {
     background-color: $primary;
     color: white;
-    border: none;
+    border: 1px solid $primary;
     line-height: 2.5em;
     height: 2.5em;
     padding: 0 .7em;
@@ -136,4 +136,8 @@ button {
     cursor: pointer;
     text-transform: uppercase;
     font-family: Futura, 'Trebuchet MS', sans-serif;
+
+    &:hover {
+        border: 1px solid white
+    }
 }
