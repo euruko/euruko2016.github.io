@@ -60,46 +60,50 @@ ol {
 }
 
 .home {
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background-color: rgba(43, 52, 61, .6);
+    position: relative;
+    height: 100vh;
 
-    header {
-        padding-top: 6em;
-        text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-        .logo {
-            -moz-animation: levitate 3s infinite;
-            -webkit-animation: levitate 3s infinite;
-            animation: levitate 3s infinite;
+    padding-top: 6em;
+    text-align: center;
 
-            a {
-                display: block;
-                text-decoration: none;
-                width: 4em;
-                margin: 1em auto;
+    .logo {
+        display: block;
+        width: 10em;
+        margin-bottom: 2em;
 
-                img { width: 100%; }
+        img { width: 100%; }
 
-                &:hover {
-                    transition: all .3s ease-in;
-                    transform: scale(1.1);
-                }
-            }
+        &:hover {
+            transition: all .3s ease-in-out;
+            transform: scale(1.1);
         }
+    }
 
+    p {
+        text-transform: uppercase;
+    }
 
-        p {
-            text-transform: uppercase;
-        }
+    form {
+        width: 30em;
+        margin: 5em auto;
+    }
 
-        form {
-            width: 30em;
-            margin: 5em auto;
-        }
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100wh;
+        height: 100vh;
+        pointer-events: none;
+        z-index: -1;
+        background-color: rgba(43, 52, 61, .6);
     }
 }
 
