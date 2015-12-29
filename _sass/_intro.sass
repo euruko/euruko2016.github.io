@@ -1,0 +1,89 @@
+.home
+  position: relative
+  height: 100%
+
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  text-align: center
+
+  background:
+    image: url('/images/ndk-bw-blur.jpg')
+    position: top center
+    color: $dark
+    size: cover
+
+  color: white
+
+  z-index: 0
+
+  .logo
+    display: block
+
+    width: 10em
+    margin:
+      top: 2em
+      bottom: 2em
+
+    z-index: 2
+
+    transition: all .3s ease-in-out
+    transform: scale(1.0)
+
+    img
+      width: 100%
+
+    &:hover
+      transform: scale(1.1)
+
+  p
+    margin-bottom: 0
+    text:
+      align: start
+      transform: uppercase
+    z-index: 2
+
+  form
+    width: 30em
+    margin:
+      top: 5em
+      bottom: 2em
+    z-index: 2
+
+  input, button
+    transition: all .3s ease-in-out
+    line-height: 2.5em
+    height: 2.5em
+    padding: 0 .7em
+    font:
+      family: Futura, 'Trebuchet MS', sans-serif
+      size: 1em
+
+  input[type=text], input[type=email]
+    background-color: transparent
+    color: white
+    border: 1px solid $secondary
+
+    &:focus
+      border-color: white
+
+  button
+    background-color: $primary
+    color: white
+    border: 1px solid $primary
+    cursor: pointer
+    text-transform: uppercase
+
+    &:hover
+      border: 1px solid white
+
+  .overlay
+    position: absolute
+    top: 0
+    left: 0
+    bottom: 0
+    right: 0
+    z-index: 1
+    background-color: rgba(43, 52, 61, .6)
+    pointer-events: none
