@@ -60,7 +60,7 @@
       family: Futura, 'Trebuchet MS', sans-serif
       size: 1em
 
-  input[type=text], input[type=email]
+  input
     background-color: transparent
     color: white
     border: 1px solid $secondary
@@ -87,6 +87,44 @@
     z-index: 1
     background-color: rgba(43, 52, 61, .6)
     pointer-events: none
+
+  &-social
+    position: absolute
+    bottom: 0
+    height: 3em
+    width: 100%
+
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+
+    text-transform: uppercase
+
+    background-color: rgba(0, 0, 0, .3)
+
+    z-index: 2
+
+    ul
+      margin-bottom: 0
+
+      li
+        display: inline-block
+
+        font-size: 0.6em
+        line-height: 1
+
+        list-style: none
+
+        &:first-child
+          margin-right: 1em
+
+      a
+        color: rgba(255, 255, 255, .6)
+
+    .icon
+      display: block
+      font-size: 2.4em
 
 // The responsive patterns are mainly for the .intro section. Keep them here,
 // so we can change them once we have a better idea of what the overall site
