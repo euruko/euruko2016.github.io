@@ -101,17 +101,17 @@
   align-items: center
 
   background-color: rgba(0, 0, 0, .3)
-  color: rgba(255, 255, 255, .6)
+  color: transparentize(white, .6)
 
   z-index: 2
 
   a
     text-decoration: none
-    color: rgba(255, 255, 255, .6)
+    color: transparentize(white, .4)
     transition: all .3s ease-in-out
 
     &:hover
-      color: rgba(255, 255, 255, 1)
+      color: white
 
   ul
     text-transform: uppercase
@@ -140,7 +140,7 @@
     a
       font-size: 1em
       line-height: 1
-      color: rgba(255, 255, 255, .8)
+      color: transparentize(white, .2)
 
 // The responsive patterns are mainly for the .intro section. Keep them here,
 // so we can change them once we have a better idea of what the overall site
