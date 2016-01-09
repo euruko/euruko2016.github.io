@@ -13,3 +13,6 @@ github_username:  euruko
 
 # Build settings
 markdown: kramdown
+
+gems:
+  - octopress-autoprefixer
