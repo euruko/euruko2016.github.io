@@ -1,5 +1,6 @@
 source: app
 destination: build
+baseurl: ''
 
 title: EuRuKo 2016, Sofia
 email: about@euruko2016.org
