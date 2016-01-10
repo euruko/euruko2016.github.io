@@ -1,7 +1,3 @@
-source: app
-destination: build
-baseurl: ''
-
 title: EuRuKo 2016, Sofia
 email: about@euruko2016.org
 
@@ -15,3 +11,4 @@ github_username:  euruko
 # Build settings
 markdown: kramdown
 
+baseurl: ''
