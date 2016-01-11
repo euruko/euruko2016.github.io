@@ -179,3 +179,10 @@
   .intro-social
     p
       font-size: 1em
+
+// Mobile Safari viewport hacks for iPhone 5+. This will get rid of the white
+// margins on the left and bottom of the screen.
+@media (max-width: 375px)
+  html, body
+    min-width: 400px
+    min-height: 600px
