@@ -1,4 +1,7 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem "github-pages"
-gem "octopress-autoprefixer"
+gem 'middleman', '>= 4.0.0'
+gem 'middleman-livereload'
+gem 'middleman-deploy', github: 'middleman-contrib/middleman-deploy'
+gem 'middleman-autoprefixer'
+gem 'middleman-compass', '>= 4.0.0'
