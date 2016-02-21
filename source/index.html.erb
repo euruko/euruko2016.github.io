@@ -1,35 +1,56 @@
 ---
-title: Homepage - EuRuKo 2016 - Sofia, Bulgaria
+layout: splash
+title: EuRuKo 2016 - 23-24 September, Sofia
 ---
 
-<section class="intro">
-  <a class="logo" href="/">
-    <%= image_tag "logo.svg" %>
-  </a>
+<div class="header">
+  <%= partial 'nav' %>
 
-  <p>
-    EuRuKo is an annual Ruby Conference in Europe.<br>
-    Visit Sofia, Bulgaria on September 23—24, 2016.
+  <p class="intro">
+    EURUKO IS AN ANNUAL RUBY CONFERENCE IN EUROPE.<br>
+    VISIT SOFIA, BULGARIA ON SEPTEMBER 23—24, 2016.
   </p>
+</div>
 
-  <form action="//euruko2016.us12.list-manage.com/subscribe/post?u=50aaef8c1c7bbeafe0d6466fd&amp;id=3cac005cb6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="you@awesome.conf">
-    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_50aaef8c1c7bbeafe0d6466fd_3cac005cb6" tabindex="-1" value=""></div>
-    <button type="submit" value="Subscribe" name="subscribe">Subscribe</button>
-  </form>
+<section id="call-for-speakers" class="centered">
+  <div class="wrapper">
+    <h2>Call for speakers</h2>
+    <p>
+      We are pleased to announce that we have opened the call for speakers for EuRuKo 2016. <br>
+      This is a great opportunity for you to share an idea you’re excited about with the community – make sure you apply for speaking!<br>
+      The call for speakers closes on Friday, April 15th.
+    </p>
 
-  <div class="overlay"></div>
-
-  <footer class="intro-social">
-    <ul>
-      <li>
-        <a href="https://twitter.com/euruko"><i class="ion-social-twitter"></i></a>
-      </li>
-      <li>
-        <a href="https://github.com/euruko"><i class="ion-social-github"></i></a>
-      </li>
-    </ul>
-
-    <p>Contact us at <a href="mailto:hi@euruko2016.org">hi@euruko2016.org</a></p>
-  </footer>
+    <div class="cta">
+      <%= link_to 'Submit your talk', 'http://goo.gl/forms/GmpJlFZvIG', class: 'btn', target: '_blank' %>
+    </div>
+  </div>
 </section>
+
+<section id="call-for-sponsors" class="dark centered sponsors">
+  <div class="wrapper">
+    <h2>Call for sponsors</h2>
+    <p>
+      EuRuKo is an annual non-profit tech conference and the second largest Ruby community gathering in the world.
+      By supporting the event you get the opportunity to show your company in front of over 700 developers from all around the globe.
+    </p>
+
+    <div class="cta">
+      <%= link_to 'Sponsorship info', '/sponsorship-packages.html', class: 'btn' %>
+    </div>
+  </div>
+</section>
+
+<section class="light newsletter">
+  <div class="wrapper">
+    <h2>Subscribe for news</h2>
+
+    <form action="//euruko2016.us12.list-manage.com/subscribe/post?u=50aaef8c1c7bbeafe0d6466fd&amp;id=3cac005cb6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+      <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="you@awesome.conf">
+      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_50aaef8c1c7bbeafe0d6466fd_3cac005cb6" tabindex="-1" value=""></div>
+      <button type="submit" value="Subscribe" name="subscribe">Subscribe</button>
+    </form>
+  </div>
+</section>
+
+<%= partial 'footer' %>
