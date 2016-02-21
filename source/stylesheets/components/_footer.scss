@@ -1,0 +1,17 @@
+.footer {
+  height: 20em;
+  background-color: $dark-gray;
+  color: #fff;
+
+  a {
+    color: $red;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  .col {
+    @include span-columns(3);
+  }
+}

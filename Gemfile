@@ -5,3 +5,7 @@ gem 'middleman-livereload'
 gem 'middleman-deploy', github: 'middleman-contrib/middleman-deploy'
 gem 'middleman-autoprefixer'
 gem 'middleman-compass', '>= 4.0.0'
+
+gem 'bourbon'
+gem 'neat'
+gem 'bitters'

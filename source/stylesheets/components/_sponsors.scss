@@ -1,0 +1,64 @@
+.sponsors {
+  background-color: $dark-gray;
+  background-image:
+    linear-gradient(rgba(43, 52, 60, 0.9), rgba(43, 52, 60, 0.9)),
+    url('/images/header-background.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.sponsors-packages {
+  td, th {
+    border: none;
+    padding: $small-spacing;
+
+    &:first-child {
+      width: 30em;
+      text-align: left;
+    }
+  }
+
+  thead, tfoot {
+    tr {
+      background-color: $dark-gray;
+      color: #fff;
+
+      th {
+        text-align: center;
+      }
+    }
+  }
+
+  tbody {
+    tr:nth-child(odd) {
+      background-color: $light-gray;
+    }
+
+    td {
+      .included, .not-included, .addon {
+        font-size: 1.5em;
+      }
+
+      .included {
+        color: #4cb7b0;
+
+        &.details {
+          font-size: 1em;
+          text-transform: uppercase;
+        }
+      }
+
+      .not-included {
+        font-weight: bold;
+        color: $red;
+      }
+
+      .addon {
+        font-size: 1em;
+        color: $dark-gray;
+      }
+    }
+  }
+}

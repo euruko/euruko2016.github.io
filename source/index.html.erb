@@ -1,35 +1,49 @@
 ---
+layout: splash
 title: Homepage - EuRuKo 2016 - Sofia, Bulgaria
 ---
 
-<section class="intro">
-  <a class="logo" href="/">
-    <%= image_tag "logo.svg" %>
-  </a>
+<div class="header">
+  <%= partial 'nav' %>
 
-  <p>
-    EuRuKo is an annual Ruby Conference in Europe.<br>
-    Visit Sofia, Bulgaria on September 23—24, 2016.
+  <p class="intro">
+    EURUKO IS AN ANNUAL RUBY CONFERENCE IN EUROPE.<br>
+    VISIT SOFIA, BULGARIA ON SEPTEMBER 23—24, 2016.
   </p>
+</div>
 
-  <form action="//euruko2016.us12.list-manage.com/subscribe/post?u=50aaef8c1c7bbeafe0d6466fd&amp;id=3cac005cb6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="you@awesome.conf">
-    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_50aaef8c1c7bbeafe0d6466fd_3cac005cb6" tabindex="-1" value=""></div>
-    <button type="submit" value="Subscribe" name="subscribe">Subscribe</button>
-  </form>
+<section id="call-for-papers" class="centered">
+  <div class="wrapper">
+    <h2>Call for papers</h2>
+    <p>Ipsum ratione nisi sunt cum consectetur perspiciatis modi. Doloremque nihil molestiae voluptate quod voluptatem. Similique dolorum architecto voluptatibus minima asperiores iste non tempore id obcaecati quos veniam non debitis maiores!</p>
 
-  <div class="overlay"></div>
-
-  <footer class="intro-social">
-    <ul>
-      <li>
-        <a href="https://twitter.com/euruko"><i class="ion-social-twitter"></i></a>
-      </li>
-      <li>
-        <a href="https://github.com/euruko"><i class="ion-social-github"></i></a>
-      </li>
-    </ul>
-
-    <p>Contact us at <a href="mailto:hi@euruko2016.org">hi@euruko2016.org</a></p>
-  </footer>
+    <div class="cta">
+      <a class="btn" href="https://docs.google.com/a/euruko2016.org/forms/d/1jGbFSi8hl06lp-qYhePTn4P5NIg4cZkrtM4vdGYMVck/viewform" target="_blank">Submit your talk</a>
+    </div>
+  </div>
 </section>
+
+<section id="call-for-sponsors" class="dark centered sponsors">
+  <div class="wrapper">
+    <h2>Become a sponsor</h2>
+    <p>Amet vitae vel voluptates assumenda eaque totam illum quibusdam esse fuga? Asperiores officiis laborum corporis quo modi eius necessitatibus ea accusantium? Autem alias vel quia accusantium porro quo exercitationem. Atque.</p>
+
+    <div class="cta">
+      <%= link_to 'Sponsorship Packages', '/sponsorship-packages.html', class: 'btn' %>
+    </div>
+  </div>
+</section>
+
+<section class="light newsletter">
+  <div class="wrapper">
+    <h2>Subscribe for news</h2>
+
+    <form action="//euruko2016.us12.list-manage.com/subscribe/post?u=50aaef8c1c7bbeafe0d6466fd&amp;id=3cac005cb6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+      <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="you@awesome.conf">
+      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_50aaef8c1c7bbeafe0d6466fd_3cac005cb6" tabindex="-1" value=""></div>
+      <button type="submit" value="Subscribe" name="subscribe">Subscribe</button>
+    </form>
+  </div>
+</section>
+
+<%= partial 'footer' %>
