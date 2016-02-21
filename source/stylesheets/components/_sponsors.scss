@@ -9,6 +9,12 @@
   background-attachment: fixed;
 }
 
+.comparison-table {
+  @include media($mobile) {
+    display: none;
+  }
+}
+
 .sponsors-packages {
   td, th {
     border: none;

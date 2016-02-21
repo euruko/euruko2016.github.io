@@ -6,6 +6,8 @@
 @import "lib/neat/neat";
 @import "base/base";
 
+$mobile: new-breakpoint(max-width 480px 1);
+
 @import "components/header";
 @import "components/footer";
 @import "components/newsletter";
@@ -41,6 +43,16 @@ section {
   &.centered {
     text-align: center;
   }
+
+  @include media($mobile) {
+    padding: 2em 1em;
+
+    h1, h2, h3 {
+      margin-bottom: 1em;
+    }
+
+    h2 {
+      font-size: 140%;
+    }
+  }
 }
-
-

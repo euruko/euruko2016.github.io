@@ -1,5 +1,5 @@
 .footer {
-  height: 20em;
+  min-height: 20em;
   background-color: $dark-gray;
   color: #fff;
 
@@ -13,5 +13,11 @@
 
   .col {
     @include span-columns(3);
+
+    @include media($mobile) {
+      @include span-columns(1);
+      margin-bottom: .5em;
+      text-align: center;
+    }
   }
 }

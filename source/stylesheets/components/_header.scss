@@ -31,6 +31,15 @@
       &:hover {
         color: $red;
       }
+
+      @include media($mobile) {
+        display: none;
+      }
+    }
+
+    @include media($mobile) {
+      padding-top: 2em;
+      margin-bottom: 1em;
     }
   }
 
@@ -43,13 +52,18 @@
       width: 180px;
       height: 207px;
       background: transparent url('/images/logo.svg') no-repeat center center;
-      background-size: cover;
       text-indent: -9999px;
       overflow: hidden;
       transition: all .3s ease-in-out;
 
       &:hover {
         transform: scale(1.05);
+      }
+
+      @include media($mobile) {
+        width: 100px;
+        height: 115px;
+        background-image: url('/images/logo-small.svg');
       }
     }
   }
@@ -59,6 +73,11 @@
     font-family: $heading-font-family;
     text-transform: uppercase;
     color: #fff;
+
+    @include media($mobile) {
+      font-size: 100%;
+      padding: 0 1em;
+    }
   }
 
   &.mini {
@@ -71,5 +90,14 @@
     p {
       margin-bottom: 2em;
     }
+
+    @include media($mobile) {
+      height: 32em;
+    }
+  }
+
+  @include media($mobile) {
+    padding: 1em;
+    height: 20em;
   }
 }
