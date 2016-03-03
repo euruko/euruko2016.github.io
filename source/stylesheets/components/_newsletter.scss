@@ -1,0 +1,20 @@
+.newsletter {
+  background: transparent url('/images/ruby.svg') no-repeat center center;
+
+  form {
+    text-align: center;
+
+    input {
+      display: inline-block;
+      width: 15em;
+      margin-right: .1em;
+      line-height: 1.4em;
+    }
+
+    button {
+      position: relative;
+      top: -2px;
+      display: inline-block;
+    }
+  }
+}
