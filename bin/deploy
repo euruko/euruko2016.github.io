@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Exit on errors. We don't want yout .git directory removed by accident.
+# Exit on errors. We don't want you .git directory removed by accident.
 set -e
 
 bundle exec middleman build -e production
