@@ -17,7 +17,6 @@ configure :build do
   activate :minify_javascript
 end
 
-activate :deploy do |deploy|
-  deploy.build_before = true
-  deploy.deploy_method = :git
+activate :gh_pages do |gh_pages|
+  gh_pages.remote = 'git@github.com:euruko/euruko2016.github.io.git'
 end
