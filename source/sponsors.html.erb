@@ -1,0 +1,21 @@
+---
+title: Sponsors | EuRuKo 2016 - 23-24 September, Sofia
+---
+
+<div class="header">
+  <%= partial 'nav' %>
+</div>
+
+<div class="wrapper">
+  <% if data.sponsors.webrick.present? %>
+    <h1>Webrick Sponsors</h1>
+      <% data.sponsors.webrick.each do |sponsor| %>
+        <% link_to(sponsor.company_site) do %>
+          <%= image_tag sponsor.logo_path %>
+        <% end %>
+        <p><%= sponsor.description %></p>
+      <% end %>
+  <% end %>
+</div>
+
+<%= partial 'footer' %>

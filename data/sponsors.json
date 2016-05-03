@@ -1,0 +1,10 @@
+{
+  "webrick" : [
+    {
+      "name": "eMerchantPay",
+      "description" : "<a href=\"https://www.emerchantpay.com/\">eMerchantPay</a> is an established payment service provider that provides international online, mobile and POS <a href=\"https://www.emerchantpay.com/payment-solutions/payment-processing\">payment processing services</a> to merchants across the globe. eMerchantPay’s fraud prevention services and payment processing solutions enable merchants to increase their conversion rates, expand their customer reach and prevent fraud. Innovative payment solutions, processing in more than 150 currencies and various languages, plus dedicated account managers providing personal service make eMerchantPay a knowledgeable specialist and an innovative partner for businesses of all types and sizes.",
+      "logo_path" : "images/sponsors/eMerchantPay_Logo_RGB.png",
+      "company_site" : "https://www.emerchantpay.com"
+    }
+  ]
+}
