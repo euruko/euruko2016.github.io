@@ -1,0 +1,39 @@
+.sponsors-block {
+  margin-bottom: em(60px);
+
+  .sponsor {
+    @include outer-container;
+    margin-bottom: em(40px);
+
+    .logo {
+      display: block;
+      @include span-columns(4);
+
+      img {
+        width: 100%;
+        border: 1px solid $light-gray;
+      }
+    }
+
+    .description {
+      @include span-columns(8);
+
+      h2 {
+        text-align: left;
+        font-size: 120%;
+        margin-bottom: 0;
+      }
+
+      .url {
+        display: block;
+        margin-bottom: em(20px);
+        text-decoration: underline;
+      }
+    }
+  }
+
+  &.accent {
+    .logo { @include span-columns(5); }
+    .description { @include span-columns(7); }
+  }
+}

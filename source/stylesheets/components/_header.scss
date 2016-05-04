@@ -97,6 +97,27 @@
     }
   }
 
+  &.inner {
+    height: auto;
+    background-image:
+      linear-gradient(rgba(43, 52, 60, 0.9), rgba(43, 52, 60, 0.9)),
+      url('/images/header-background.jpg');
+
+    nav {
+      margin-bottom: 0;
+      padding: 1em 0;
+    }
+
+    .logo {
+      a {
+        width: 100px;
+        background: transparent url('/images/logo-small.svg') no-repeat center center;
+      }
+    }
+
+    h1:last-child { padding-bottom: 2em; }
+  }
+
   @include media($mobile) {
     padding: 1em;
     height: 20em;
