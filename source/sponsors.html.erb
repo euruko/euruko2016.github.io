@@ -2,20 +2,56 @@
 title: Sponsors | EuRuKo 2016 - 23-24 September, Sofia
 ---
 
-<div class="header">
+<div class="header inner">
   <%= partial 'nav' %>
+
+  <h1>Sponsors</h1>
 </div>
 
-<div class="wrapper">
-  <% if data.sponsors.webrick.present? %>
-    <h1>Webrick Sponsors</h1>
-      <% data.sponsors.webrick.each do |sponsor| %>
-        <% link_to(sponsor.company_site) do %>
-          <%= image_tag sponsor.logo_path %>
-        <% end %>
-        <p><%= sponsor.description %></p>
-      <% end %>
-  <% end %>
-</div>
+<section>
+  <div class="wrapper">
+    <div class="sponsors-block accent">
+      <h1>Unicorn Sponsors</h1>
+
+      <div class="sponsor">
+        <%= link_to image_tag('sponsors/receipt_bank_logo.svg'), '#', target: '_blank', class: 'logo' %>
+        <div class="description">
+          <h2>Receipt Bank</h2>
+          <%= link_to 'http://receiptbank.com/', '#', class: 'url' %>
+          <p>Receipt Bank is an award-winning accounting software used by 30,000+ small business to make bookkeeping effortless. Our automation saves them hundreds of hours every year - and we’re just getting started!</p>
+          <p>We are based around the globe, but our development team is mostly here in Bulgaria. We are a start-up that cares deeply about high quality and sane development practices. We have learned through blood and tears that the best way is almost always through beautiful, easily maintained code.</p>
+          <p>We are down to earth, happy Rails users and extremely proud sponsors of Euruko 2016.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="sponsors-block">
+      <h1>Webrick Sponsors</h1>
+
+      <div class="sponsor">
+        <%= link_to image_tag('sponsors/emerchantpay_logo.svg'), '#', target: '_blank', class: 'logo' %>
+        <div class="description">
+          <h2>eMerchantPay</h2>
+          <%= link_to 'http://emerchantpay.com/', '#', class: 'url' %>
+          <p>eMerchantPay is an established payment service provider that provides international online, mobile and POS payment processing services to merchants across the globe. eMerchantPay’s fraud prevention services and payment processing solutions enable merchants to increase their conversion rates, expand their customer reach and prevent fraud. Innovative payment solutions, processing in more than 150 currencies and various languages, plus dedicated account managers providing personal service make eMerchantPay a knowledgeable specialist and an innovative partner for businesses of all types and sizes.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="call-for-sponsors" class="dark centered sponsors">
+  <div class="wrapper">
+    <h2>Call for sponsors</h2>
+    <p>
+      EuRuKo is an annual non-profit tech conference and the second largest Ruby community gathering in the world.
+      By supporting the event you get the opportunity to show your company in front of over 700 developers from all around the globe.
+    </p>
+
+    <div class="cta">
+      <%= link_to 'Sponsorship info', '/sponsorship-packages', class: 'btn' %>
+    </div>
+  </div>
+</section>
 
 <%= partial 'footer' %>
