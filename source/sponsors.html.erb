@@ -2,16 +2,18 @@
 title: Sponsors | EuRuKo 2016 - 23-24 September, Sofia
 ---
 
-<div class="header inner">
-  <%= partial 'nav' %>
-
-  <h1>Sponsors</h1>
+<div class="header">
+  <div class="wrapper">
+    <%= partial 'nav' %>
+  </div>
 </div>
 
-<section>
+<section class="text-page">
   <div class="wrapper">
-    <div class="sponsors-block accent">
-      <h1>Unicorn Sponsors</h1>
+    <h1>Thanks to our Sponsors</h1>
+
+    <div class="sponsors-block">
+      <h3>Unicorn</h3>
 
       <div class="sponsor">
         <%= link_to image_tag('sponsors/receipt_bank_logo.svg'), 'http://receipt-bank.com', target: '_blank', class: 'logo' %>
@@ -26,7 +28,7 @@ title: Sponsors | EuRuKo 2016 - 23-24 September, Sofia
     </div>
 
     <div class="sponsors-block">
-      <h1>Webrick Sponsors</h1>
+      <h3>Webrick</h3>
 
       <div class="sponsor">
         <%= link_to image_tag('sponsors/emerchantpay_logo.svg'), 'https://www.emerchantpay.com', target: '_blank', class: 'logo' %>
@@ -42,14 +44,14 @@ title: Sponsors | EuRuKo 2016 - 23-24 September, Sofia
 
 <section id="call-for-sponsors" class="dark centered sponsors">
   <div class="wrapper">
-    <h2>Call for sponsors</h2>
+    <h2>Interested in supporting Euruko?</h2>
     <p>
-      EuRuKo is an annual non-profit tech conference and the second largest Ruby community gathering in the world.
+      EuRuKo is an annual non-profit tech conference and the second largest Ruby community gathering in the world.<br>
       By supporting the event you get the opportunity to show your company in front of over 700 developers from all around the globe.
     </p>
 
     <div class="cta">
-      <%= link_to 'Sponsorship info', '/sponsorship-packages', class: 'btn' %>
+      <%= link_to 'Become a sponsor', '/sponsorship-packages', class: 'btn' %>
     </div>
   </div>
 </section>

@@ -1,5 +1,6 @@
 .header {
-  position: relative;
+  overflow: hidden;
+  padding: 1em 0 .8em 0;
   background-color: $dark-gray;
   background-image:
     linear-gradient(rgba(43, 52, 60, 0.9), rgba(43, 52, 60, 0.9)),
@@ -7,119 +8,57 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  height: 30em;
-  text-align: center;
   color: #fff;
 
+  .logo {
+    display: block;
+    float: left;
+    color: #fff;
+
+    img {
+      display: block;
+      float: left;
+      transition: all .2s ease-in-out;
+    }
+
+    .summary {
+      display: block;
+      float: left;
+      margin-left: 1em;
+      margin-top: 2em;
+      font-size: 90%;
+
+      em {
+        font-family: $heading-font-family;
+        font-size: 150%;
+        text-transform: uppercase;
+        font-style: normal;
+      }
+    }
+
+    &:hover {
+      img { transform: scale(1.05); }
+    }
+  }
+
   nav {
-    padding-top: 3em;
-    margin-bottom: 4em;
+    float: right;
+    margin-top: 2.5em;
 
     a {
       display: inline-block;
-      padding: 0 2em;
-      width: 10em;
-      line-height: 190px;
+      margin-right: em(40px);
       font-family: $heading-font-family;
       text-transform: uppercase;
       color: #fff;
 
-      &.double {
-        width: 15em;
-      }
-
-      &:hover {
-        color: $red;
-      }
-
-      @include media($mobile) {
-        display: none;
-      }
-    }
-
-    @include media($mobile) {
-      padding-top: 2em;
-      margin-bottom: 1em;
-    }
-  }
-
-  .logo {
-    display: inline-block;
-    margin: 0 1em;
-
-    a {
-      display: block;
-      width: 180px;
-      height: 207px;
-      margin: 0;
-      padding: 0;
-      background: transparent url('/images/logo.svg') no-repeat center center;
-      text-indent: -9999px;
-      transition: all .3s ease-in-out;
-
-      &:hover {
-        transform: scale(1.05);
-      }
-
-      @include media($mobile) {
-        width: 100px;
-        height: 115px;
-        background-image: url('/images/logo-small.svg');
+      &:last-of-type {
+        margin-right: 0;
       }
     }
   }
+}
 
-  p.intro {
-    font-size: 160%;
-    font-family: $heading-font-family;
-    text-transform: uppercase;
-    color: #fff;
-
-    @include media($mobile) {
-      font-size: 100%;
-      padding: 0 1em;
-    }
-  }
-
-  &.mini {
-    height: 19em;
-  }
-
-  &.full-header {
-    height: 37em;
-
-    p {
-      margin-bottom: 2em;
-    }
-
-    @include media($mobile) {
-      height: 32em;
-    }
-  }
-
-  &.inner {
-    height: auto;
-    background-image:
-      linear-gradient(rgba(43, 52, 60, 0.9), rgba(43, 52, 60, 0.9)),
-      url('/images/header-background.jpg');
-
-    nav {
-      margin-bottom: 0;
-      padding: 1em 0;
-    }
-
-    .logo {
-      a {
-        width: 100px;
-        background: transparent url('/images/logo-small.svg') no-repeat center center;
-      }
-    }
-
-    h1:last-child { padding-bottom: 2em; }
-  }
-
-  @include media($mobile) {
-    padding: 1em;
-    height: 20em;
-  }
+.text-page {
+  h1, h2, h3, h4, h5, h6 { text-align: left; }
 }

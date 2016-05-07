@@ -11,7 +11,7 @@
 
       img {
         width: 100%;
-        border: 1px solid $light-gray;
+        border: 1px solid #ddd;
       }
     }
 
@@ -30,10 +30,5 @@
         text-decoration: underline;
       }
     }
-  }
-
-  &.accent {
-    .logo { @include span-columns(5); }
-    .description { @include span-columns(7); }
   }
 }
