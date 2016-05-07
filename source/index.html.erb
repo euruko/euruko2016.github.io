@@ -2,13 +2,21 @@
 title: EuRuKo 2016 - 23-24 September, Sofia
 ---
 
-<div class="header">
-  <%= partial 'nav' %>
+<div class="home-header">
+  <div class="wrapper">
+    <%= image_tag('logo.svg') %>
+    <h1>EURUKO 2016</h1>
 
-  <p class="intro">
-    EURUKO IS AN ANNUAL RUBY CONFERENCE IN EUROPE.<br>
-    VISIT SOFIA, BULGARIA ON SEPTEMBER 23—24, 2016.
-  </p>
+    <p class="intro">
+      EURUKO IS AN ANNUAL RUBY CONFERENCE IN EUROPE.<br>
+      VISIT SOFIA, BULGARIA ON SEPTEMBER 23—24, 2016.
+    </p>
+  </div>
+</div>
+<div class="home-nav">
+  <div class="wrapper">
+    <%= partial 'nav' %>
+  </div>
 </div>
 
 <section id="call-for-speakers" class="centered">
@@ -18,7 +26,7 @@ title: EuRuKo 2016 - 23-24 September, Sofia
       The call for speakers is now closed.
     </p>
     <p>
-      Thanks to everyone who submitted a session! Selected Speakers will be notified in May. 
+      Thanks to everyone who submitted a session! Selected Speakers will be notified in May.
     </p>
     <p>
       Stay tuned for updates!
@@ -40,7 +48,7 @@ title: EuRuKo 2016 - 23-24 September, Sofia
   </div>
 </section>
 
-<section class="light newsletter">
+<!-- <section class="light newsletter">
   <div class="wrapper">
     <h2>Subscribe for news</h2>
 
@@ -50,6 +58,6 @@ title: EuRuKo 2016 - 23-24 September, Sofia
       <button type="submit" value="Subscribe" name="subscribe">Subscribe</button>
     </form>
   </div>
-</section>
+</section> -->
 
 <%= partial 'footer' %>

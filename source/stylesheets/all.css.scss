@@ -28,7 +28,6 @@ section {
 
   h1, h2, h3 {
     margin-bottom: 2em;
-    text-align: center;
   }
 
   .cta {
@@ -46,6 +45,8 @@ section {
 
   &.centered {
     text-align: center;
+
+    h1, h2, h3, h4, h5, h6 { text-align: center; }
   }
 
   @include media($mobile) {

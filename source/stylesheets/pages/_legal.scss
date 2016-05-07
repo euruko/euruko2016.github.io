@@ -1,7 +1,4 @@
 .legal-information {
-  background: transparent url('/images/ruby.svg') no-repeat center center;
-  background-attachment: fixed;
-
   h1, h2, h3 {
     margin-bottom: 0.5em;
   }
@@ -16,7 +13,6 @@
 
   .company-details {
     width: em(460px);
-    margin: 0 auto;
     padding: em(40px);
     text-align: left;
     // background-color: rgba(43, 52, 61, .3);
