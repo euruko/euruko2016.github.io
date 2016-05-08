@@ -1,7 +1,18 @@
 .highlighted-sponsors {
-  background: $red url('/images/ruby-white.svg') no-repeat right bottom;
-  background-attachment: fixed;
-  text-align: center;
+  padding: 2.5em 0;
+  background-color: $light-gray;
 
-  a { display: inline-block; }
+  h6 {
+    margin-bottom: 2.5em;
+    text-align: center;
+  }
+
+  .unicorn-list {
+    @include span-columns(8);
+    @include shift(4);
+
+    .sponsor {
+      @include span-columns(2 of 8);
+    }
+  }
 }

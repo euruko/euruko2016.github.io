@@ -1,0 +1,46 @@
+---
+title: Sponsors | EuRuKo 2016 - 23-24 September, Sofia
+---
+
+<%= partial 'header' %>
+
+<div id="map"></div>
+
+<section>
+  <div class="wrapper">
+    <h1>Location</h1>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt temporibus, corrupti rerum molestias vitae voluptatem tempora alias tempore a atque debitis iste odit, natus veniam, optio, maxime libero iure inventore.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrapper">
+    <h2>Photos</h2>
+
+    ...
+  </div>
+</section>
+
+<script>
+  var map;
+  var venue_location = {lat: 42.6847664, lng: 23.3189169};
+
+  function initMap() {
+    map = new google.maps.Map(document.getElementById('map'), {
+      center: venue_location,
+      scrollwheel: false,
+      zoom: 16
+    });
+
+    var marker = new google.maps.Marker({
+      position: venue_location,
+      map: map,
+      title: 'National Palace of Culture',
+      icon: 'images/map-pin.svg'
+    });
+  }
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmQo2_5BXFenNEWdnzaQSV95cMSyeeNFk&callback=initMap" async defer></script>
+
+<%= partial 'footer' %>
