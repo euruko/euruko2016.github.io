@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="79px" height="100px" viewBox="0 0 79 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.2 (28276) - http://www.bohemiancoding.com/sketch -->
+    <title>map-pin</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <ellipse id="path-1" cx="39" cy="88" rx="19" ry="5"></ellipse>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.158429574 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Variant-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="map-pin" transform="translate(1.000000, 1.000000)">
+            <g id="Oval-1" fill-opacity="1" fill="black">
+                <use filter="url(#filter-2)" xlink:href="#path-1"></use>
+            </g>
+            <polygon id="Path-92" fill="#C15A5B" points="39.060694 90.3359169 7.85927822 55.8571797 0.246471129 29.1497971 24.4079779 3.33190071 57.5914893 0.0885176667 72.0010657 15.7593815 76.4155719 30.237341 73.1777608 60.6510853"></polygon>
+            <g id="Page-1" transform="translate(0.379310, 0.000000)" stroke="#FFFFFF">
+                <g id="VER.1">
+                    <path d="M38.6859996,90.6677211 L70.6569698,42.9898376" id="Shape"></path>
+                    <path d="M38.6859996,90.6677211 L72.8075817,61.162242" id="Shape"></path>
+                    <path d="M38.6859996,90.6677211 L7.31259524,42.9898376" id="Shape"></path>
+                    <path d="M7.31259524,42.9898376 L58.4713343,61.162242" id="Shape"></path>
+                    <path d="M70.6569698,42.9898376 L76.3265807,30.4841543" id="Shape"></path>
+                    <path d="M76.3265807,30.4841543 L57.5579725,22.472583" id="Shape"></path>
+                    <path d="M72.8075817,61.162242 L76.3265807,30.4841543" id="Shape"></path>
+                    <path d="M70.6569698,42.9898376 L72.8075817,61.162242" id="Shape"></path>
+                    <path d="M57.5579725,22.472583 L71.7323678,15.8288411" id="Shape"></path>
+                    <path d="M71.7323678,15.8288411 L76.3265807,30.4841543" id="Shape"></path>
+                    <path d="M8.29014608,20.127733 L24.7126322,11.1391409" id="Shape"></path>
+                    <path d="M7.31259524,55.4953372 L8.29014608,20.127733" id="Shape"></path>
+                    <path d="M7.31259524,42.9898376 L0.0787190515,29.3117293" id="Shape"></path>
+                    <path d="M0.0787190515,29.3117293 L8.29014608,20.127733" id="Shape"></path>
+                    <path d="M24.7126322,11.1391409 L57.5579725,22.472583" id="Shape"></path>
+                    <path d="M8.29014608,20.127733 L24.7126322,2.95551112" id="Shape"></path>
+                    <path d="M23.4482759,11.1391409 L23.4482759,2.95551112" id="Shape"></path>
+                    <path d="M24.7126322,2.95551112 L57.5579725,0.00128676239" id="Shape"></path>
+                    <path d="M56.5517241,0.00128676239 L56.5517241,22.472583" id="Shape"></path>
+                    <path d="M57.5579725,0.00128676239 L71.7323678,15.8288411" id="Shape"></path>
+                    <path d="M70.6569698,42.9898376 L42.4060266,55.4953372" id="Shape"></path>
+                    <path d="M42.4060266,55.4953372 L38.6859996,90.6677211" id="Shape"></path>
+                    <path d="M38.6859996,90.6677211 L7.31259524,55.4953372" id="Shape"></path>
+                    <path d="M7.31259524,55.4953372 L0.0787190515,29.3117293" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
