@@ -8,6 +8,7 @@ set :partials_dir, "partials"
 
 configure :development do
   activate :livereload
+  activate :directory_indexes
 end
 
 configure :build do
