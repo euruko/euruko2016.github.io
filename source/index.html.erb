@@ -19,31 +19,70 @@ title: EuRuKo 2016 - 23-24 September, Sofia
   </div>
 </div>
 
+<h1 class="section-title">2016 Line up</h1>
 
-<section id="call-for-sponsors" class="dark centered sponsors">
+<section class="home-speakers">
   <div class="wrapper">
-    <h2>Call for sponsors</h2>
-    <p>
-      EuRuKo is an annual non-profit tech conference and the second largest Ruby community gathering in the world.
-      By supporting the event you get the opportunity to show your company in front of over 700 developers from all around the globe.
-    </p>
+    <div class="speakers-list">
+      <div class="speaker">
+        <%= image_tag 'speakers/matz.jpg' %>
+        <h3>Yukihiro "Matz" Matsumoto</h3>
+        <p>Yukihiro “Matz” Matsumoto is the mastermind behind the inception of Ruby. Since 1993 he has been designing our precious jewel up to its current version. Meanwhile he has been working on mruby, a lightweight Ruby implementation.</p>
+      </div>
+    </div>
 
-    <div class="cta">
-      <%= link_to 'Sponsorship info', '/sponsorship-packages', class: 'btn' %>
+    <hr>
+
+    <div class="newsletter-form">
+      <h4>We'll be announcing more speakers in May. </h4>
+      <p>Stay tuned for updates!</p>
+
+      <form action="//euruko2016.us12.list-manage.com/subscribe/post?u=50aaef8c1c7bbeafe0d6466fd&amp;id=3cac005cb6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="you@awesome.conf">
+        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_50aaef8c1c7bbeafe0d6466fd_3cac005cb6" tabindex="-1" value=""></div>
+        <button type="submit" value="Subscribe" name="subscribe">Subscribe</button>
+      </form>
     </div>
   </div>
 </section>
 
-<!-- <section class="light newsletter">
-  <div class="wrapper">
-    <h2>Subscribe for news</h2>
+<section class="home-tickets">
+  Tickets are now available!
+  <%= link_to 'Get yours', '/tickets', class: 'btn btn-dark' %>
+</section>
 
-    <form action="//euruko2016.us12.list-manage.com/subscribe/post?u=50aaef8c1c7bbeafe0d6466fd&amp;id=3cac005cb6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-      <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="you@awesome.conf">
-      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_50aaef8c1c7bbeafe0d6466fd_3cac005cb6" tabindex="-1" value=""></div>
-      <button type="submit" value="Subscribe" name="subscribe">Subscribe</button>
-    </form>
+<section class="home-location">
+  <div class="wrapper">
+    <h1>Location</h1>
+
+    <p>Euruko 2016 will take place at The National Palace of Culture (NDK), Hall 3. The venue is located in the heart of the city and is well connected with the rest of the city. </p>
+    <p>The area around NDK is a spacious square, popular among young people, displaying their skating and biking skills, couples enjoying ice-cream or pizza at the benches, and kids playing in the small park. One of Sofia's vibrant pedestrian streets - Vitosha, is just a few minutes walk from the venue.</p>
+
+    <%= link_to 'More info about the venue', '/location', class: 'btn' %>
   </div>
-</section> -->
+</section>
+
+<div id="map"></div>
+
+<script>
+  var map;
+  var venue_location = {lat: 42.6847664, lng: 23.3189169};
+
+  function initMap() {
+    map = new google.maps.Map(document.getElementById('map'), {
+      center: venue_location,
+      scrollwheel: false,
+      zoom: 16
+    });
+
+    var marker = new google.maps.Marker({
+      position: venue_location,
+      map: map,
+      title: 'National Palace of Culture',
+      icon: 'images/map-pin.svg'
+    });
+  }
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmQo2_5BXFenNEWdnzaQSV95cMSyeeNFk&callback=initMap" async defer></script>
 
 <%= partial 'footer' %>

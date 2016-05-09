@@ -1,0 +1,66 @@
+section {
+  &[class^="home-"] {
+    p:last-of-type { margin-bottom: em(20px); }
+  }
+
+  &.home-location {
+    overflow: hidden;
+    background-color: $dark-gray;
+    background-image:
+      linear-gradient(rgba(43, 52, 60, 0.9), rgba(43, 52, 60, 0.9)),
+      url('/images/header-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+
+    h1 { margin-bottom: 1em; }
+  }
+
+  &.home-tickets {
+    padding: $base-spacing;
+    background-color: $red;
+    color: #fff;
+    text-align: center;
+    font-family: $heading-font-family;
+    text-transform: uppercase;
+    font-size: 140%;
+
+    .btn {
+      margin-left: 1em;
+    }
+  }
+
+  &.home-speakers {
+    h1 { text-align: center; }
+
+    .newsletter-form {
+      margin-top: 4em;
+      text-align: center;
+    }
+
+    form {
+      input {
+        display: inline-block;
+        width: 15em;
+        margin-right: .1em;
+        line-height: 1.4em;
+      }
+
+      button {
+        position: relative;
+        top: -2px;
+        display: inline-block;
+      }
+    }
+  }
+}
+
+.section-title {
+  padding: em(40px, 38px) 0;
+  margin: 0;
+  text-align: center;
+  color: #fff;
+  background-color: $dark-gray;
+}

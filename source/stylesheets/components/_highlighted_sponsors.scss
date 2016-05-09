@@ -13,6 +13,11 @@
 
     .sponsor {
       @include span-columns(2 of 8);
+
+      a {
+        img { transition: all .2s ease-in-out; }
+        &:hover img { transform: scale(1.1); }
+      }
     }
   }
 }
