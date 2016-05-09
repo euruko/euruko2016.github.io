@@ -1,17 +1,3 @@
-<section class="highlighted-sponsors">
-  <div class="wrapper">
-    <h6>Thanks to the Unicorns!</h6>
-
-    <div class="unicorn-list">
-      <div class="sponsor">
-        <%= link_to image_tag('sponsors/receipt_bank_logo_footer.svg'), 'http://www.receipt-bank.com', target: '_blank' %>
-      </div>
-      <div class="sponsor">
-        <%= link_to image_tag('become-sponsor.svg'), '/sponsorship-packages' %>
-      </div>
-    </div>
-  </div>
-</section>
 
 <section class="footer">
   <div class="wrapper">
@@ -22,26 +8,35 @@
         23 – 24 September<br>
         Sofia, Bulgaria
       </p>
+      <ul>
+        <li><a href="mailto:hi@euruko2016.org">hi@euruko2016.org</a></li>
+        <li><a href="https://twitter.com/euruko">@euruko</a></li>
+      </ul>
     </div>
+
     <div class="col">
       <h6>Information</h6>
 
       <ul>
         <li><%= link_to 'Code of Conduct', 'http://berlincodeofconduct.org/', target: '_blank' %></li>
+        <li><%= link_to 'Legal Information', '/legal-information' %></li>
         <li><%= link_to 'Previous Events', 'http://euruko.org/', target: '_blank' %></li>
       </ul>
     </div>
-    <div class="col">
-      &nbsp;
-    </div>
-    <div class="col">
-      <h6>Contacts</h6>
 
-      <ul>
-        <li><a href="mailto:hi@euruko2016.org">hi@euruko2016.org</a></li>
-        <li><a href="https://twitter.com/euruko">@euruko</a></li>
-        <li> <%= link_to 'Legal Information', '/legal-information' %></li>
-      </ul>
+    <div class="highlighted-sponsors">
+      <div class="wrapper">
+        <h6>Thanks to the Unicorns!</h6>
+
+        <div class="unicorn-list">
+          <div class="sponsor">
+            <%= link_to image_tag('sponsors/receipt_bank_logo_footer.svg'), 'http://www.receipt-bank.com', target: '_blank' %>
+          </div>
+          <div class="sponsor">
+            <%= link_to image_tag('become-sponsor.svg'), '/sponsorship-packages' %>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>

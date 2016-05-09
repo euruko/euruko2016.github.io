@@ -4,7 +4,7 @@ title: Location | EuRuKo 2016 - 23-24 September, Sofia
 
 <%= partial 'header' %>
 
-<div id="map"></div>
+<%= partial 'map' %>
 
 <section>
   <div class="wrapper">
@@ -45,27 +45,6 @@ title: Location | EuRuKo 2016 - 23-24 September, Sofia
     </div>
   </div>
 </section>
-
-<script>
-  var map;
-  var venue_location = {lat: 42.6847664, lng: 23.3189169};
-
-  function initMap() {
-    map = new google.maps.Map(document.getElementById('map'), {
-      center: venue_location,
-      scrollwheel: false,
-      zoom: 16
-    });
-
-    var marker = new google.maps.Marker({
-      position: venue_location,
-      map: map,
-      title: 'National Palace of Culture',
-      icon: 'images/map-pin.svg'
-    });
-  }
-</script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmQo2_5BXFenNEWdnzaQSV95cMSyeeNFk&callback=initMap" async defer></script>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.1.6/zepto.min.js"></script>

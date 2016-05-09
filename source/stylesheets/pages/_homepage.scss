@@ -16,6 +16,8 @@ section {
     color: #fff;
 
     h1 { margin-bottom: 1em; }
+
+    p a { text-decoration: underline; color: #fff; }
   }
 
   &.home-tickets {
@@ -34,26 +36,6 @@ section {
 
   &.home-speakers {
     h1 { text-align: center; }
-
-    .newsletter-form {
-      margin-top: 4em;
-      text-align: center;
-    }
-
-    form {
-      input {
-        display: inline-block;
-        width: 15em;
-        margin-right: .1em;
-        line-height: 1.4em;
-      }
-
-      button {
-        position: relative;
-        top: -2px;
-        display: inline-block;
-      }
-    }
   }
 }
 
@@ -63,4 +45,6 @@ section {
   text-align: center;
   color: #fff;
   background-color: $dark-gray;
+  background: $dark-gray url('/images/ruby.svg') no-repeat center center;
+  background-attachment: fixed;
 }
