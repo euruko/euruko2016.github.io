@@ -36,26 +36,6 @@ section {
 
   &.home-speakers {
     h1 { text-align: center; }
-
-    .newsletter-form {
-      margin-top: 4em;
-      text-align: center;
-    }
-
-    form {
-      input {
-        display: inline-block;
-        width: 15em;
-        margin-right: .1em;
-        line-height: 1.4em;
-      }
-
-      button {
-        position: relative;
-        top: -2px;
-        display: inline-block;
-      }
-    }
   }
 }
 
