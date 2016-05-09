@@ -46,7 +46,14 @@ section {
         text-align: center;
 
         .avatar {
-          img { width: 100%; border-radius: 50%; }
+          img {
+            transition: all .15s ease-in-out;
+            width: 100%;
+            border-radius: 50%;
+            border: 1px solid #bbb;
+          }
+
+          &:hover img { transform: scale(1.03); }
         }
 
         h5 {
