@@ -19,37 +19,50 @@ title: EuRuKo 2016 - 23-24 September, Sofia
   </div>
 </div>
 
-<h1 class="section-title">2016 Line up</h1>
-
 <section class="home-speakers">
   <div class="wrapper">
-    <div class="speakers-list">
+    <h1>Speakers</h1>
+
+    <div class="speakers-row">
       <div class="speaker">
-        <%= image_tag 'speakers/matz.jpg' %>
-        <h3>Yukihiro "Matz" Matsumoto</h3>
-        <p>Yukihiro “Matz” Matsumoto is the mastermind behind the inception of Ruby. Since 1993 he has been designing our precious jewel up to its current version. Meanwhile he has been working on mruby, a lightweight Ruby implementation.</p>
+        <%= link_to image_tag('speakers/matz.jpg'), '/speakers', class: 'avatar' %>
+        <%= link_to 'Yukihiro "Matz" Matsumoto', '/speakers' %>
       </div>
+      <% (1..3).to_a.each do %>
+        <div class="speaker">
+          <%= link_to image_tag('coming_soon.svg'), '/speakers', class: 'avatar' %>
+          <%= link_to 'Coming Soon', '/speakers' %>
+        </div>
+      <% end %>
     </div>
-    
-    <hr>
-
-    <div class="newsletter-form">
-      <h4>We'll be announcing more speakers in May. </h4>
-      <p>Stay tuned for updates!</p>
-
-      <form action="//euruko2016.us12.list-manage.com/subscribe/post?u=50aaef8c1c7bbeafe0d6466fd&amp;id=3cac005cb6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="you@awesome.conf">
-        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_50aaef8c1c7bbeafe0d6466fd_3cac005cb6" tabindex="-1" value=""></div>
-        <button type="submit" value="Subscribe" name="subscribe">Subscribe</button>
-      </form>
+    <div class="speakers-row">
+      <% (1..4).to_a.each do %>
+        <div class="speaker">
+          <%= link_to image_tag('coming_soon.svg'), '/speakers', class: 'avatar' %>
+          <%= link_to 'Coming Soon', '/speakers' %>
+        </div>
+      <% end %>
+    </div>
+    <div class="speakers-row">
+      <% (1..4).to_a.each do %>
+        <div class="speaker">
+          <%= link_to image_tag('coming_soon.svg'), '/speakers', class: 'avatar' %>
+          <%= link_to 'Coming Soon', '/speakers' %>
+        </div>
+      <% end %>
+    </div>
+    <div class="speakers-row">
+      <% (1..4).to_a.each do %>
+        <div class="speaker">
+          <%= link_to image_tag('coming_soon.svg'), '/speakers', class: 'avatar' %>
+          <%= link_to 'Coming Soon', '/speakers' %>
+        </div>
+      <% end %>
     </div>
   </div>
 </section>
 
-<section class="home-tickets">
-  Tickets are now available!
-  <%= link_to 'Get yours', '/tickets', class: 'btn btn-dark' %>
-</section>
+<%= partial 'buy_tickets' %>
 
 <section class="home-location">
   <div class="wrapper">
@@ -57,13 +70,14 @@ title: EuRuKo 2016 - 23-24 September, Sofia
 
     <p>Euruko 2016 will take place at Hall 3, of The National Palace of Culture (NDK). </p>
     <p>Located in the heart of the city, it's a landmark building and true gem of <a href="https://en.wikipedia.org/wiki/National_Palace_of_Culture" target="_blank">history</a>.<br>
-      The venue is surounded with plenty of hotels and restaurants, and it's well connected with the rest of the city by an underground station.</p>
-    <p>One of Sofia's vibrant pedestrian streets - Vitosha, is just a few minutes walk from the venue.</p>
+      The venue is surounded by plenty of hotels and restaurants, and is well connected with the city by a metro station.</p>
 
     <%= link_to 'More info about the venue', '/location', class: 'btn' %>
   </div>
 </section>
 
-<%= partial 'map' %>
+<section>
+  <%= partial 'newsletter' %>
+</section>
 
 <%= partial 'footer' %>

@@ -35,7 +35,25 @@ section {
   }
 
   &.home-speakers {
-    h1 { text-align: center; }
+    h1 { margin-bottom: 1em; }
+
+    .speakers-row {
+      @include outer-container;
+      margin-bottom: 2em;
+
+      .speaker {
+        @include span-columns(1 of 4);
+        text-align: center;
+
+        .avatar {
+          img { width: 100%; border-radius: 50%; }
+        }
+
+        h5 {
+          a {  }
+        }
+      }
+    }
   }
 }
 
