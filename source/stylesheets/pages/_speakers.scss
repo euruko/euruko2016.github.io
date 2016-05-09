@@ -1,0 +1,29 @@
+.speakers-list {
+  overflow: hidden;
+
+  .speaker {
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+    border-bottom: 1px solid #ddd;
+
+    &:last-child {
+      margin-bottom: 0;
+      border-bottom: 0;
+    }
+
+    img {
+      display: block;
+      float: left;
+      margin-right: $base-spacing;
+      width: em(120px);
+      border-radius: 50%;
+    }
+
+    h3 { margin-bottom: 1em; }
+  }
+}
+
+.call-for-speakers {
+  background-color: $dark-gray;
+  color: #fff;
+}

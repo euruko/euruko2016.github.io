@@ -59,6 +59,10 @@
       margin-right: 0;
     }
 
+    &.btn {
+      text-decoration: none !important;
+    }
+
     &:hover {
       text-decoration: underline;
     }

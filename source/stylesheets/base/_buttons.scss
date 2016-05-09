@@ -18,6 +18,14 @@
   white-space: nowrap;
   text-transform: uppercase;
 
+  &.btn-dark {
+    background-color: $dark-gray;
+
+    &:hover, &:focus {
+      background-color: shade($dark-gray, 20%);
+    }
+  }
+
   &:hover,
   &:focus {
     background-color: shade($action-color, 20%);

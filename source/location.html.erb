@@ -1,5 +1,5 @@
 ---
-title: Sponsors | EuRuKo 2016 - 23-24 September, Sofia
+title: Location | EuRuKo 2016 - 23-24 September, Sofia
 ---
 
 <%= partial 'header' %>
@@ -8,17 +8,41 @@ title: Sponsors | EuRuKo 2016 - 23-24 September, Sofia
 
 <section>
   <div class="wrapper">
-    <h1>Location</h1>
+    <h3>Sofia</h3>
+    <p>Last year Sofia was voted the host for Euruko 2016. It's the capital of Bulgaria, and also the largest city in the country.
+      It's located right in the centre of the Balkan Peninsula, at the foot of Vitosha mountain.
+      With more than 7000 years of history it's one of the oldest cities in Europe. </p>
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt temporibus, corrupti rerum molestias vitae voluptatem tempora alias tempore a atque debitis iste odit, natus veniam, optio, maxime libero iure inventore.</p>
+    <p>One can easily find their way around Sofia by means of the Sofia Underground, which sports two lines and 34 stations. It makes possible traveling between the city center and the airport in around 30 minutes for less than 1 euro. After visiting all the historical and cultural sights in the city center, attendees can enjoy a walk in Sofia’s many parks and gardens, such as South Park, Borisova Garden or even the Vitosha Mountain National Park.</p>
   </div>
 </section>
 
+<div class="venue-image">
+  <%= link_to '(cc) emdees', 'https://www.flickr.com/photos/74862615@N00/234059633/in/photolist-mFBLV-ph94VM-4xgvh6-72qHX5-9TbVQt-4EWcxw-pgphBK-divXi-divCo-divgi-diwEt-diwfF-s2u7e-4xkGzC-9FKPUb-bkAAn9-9FKvNs-q8VrEm-9FGCoz-9FGAVt-d9rkos-9FGMx8-9FKGn3-9WELTR-5CAm6n-hz4sgZ-5CAgs2-5CymLw-hz2UdV-5CEzYq-5CBsdj-5CESLG-5CEwzG-5CuquH-5CEpDh-9FKC3w-9FKu7A-9FKDGy-du2M3z-9FKAvu-9FKLjS-asjo89-9FKSG5-9FGwjZ-5CEC8C-fnicJ-atGxGA-9FKF7o-Ff61c-5Cy3AG', class: 'attribution', target: '_blank' %>
+</div>
+
 <section>
   <div class="wrapper">
-    <h2>Photos</h2>
+    <h3>The Venue</h3>
 
-    ...
+    <p>The National Palace of Culture, is located at the heart of Sofia.
+      It was built in 1981, to serve as a conference and exhibition center for various events.
+      Its vast exhibition spaces, its numerous halls, and the wide views from its spacious balconies contribute to its popularity as an event center to this day.</p>
+
+    <p>The area around NDK is a spacious square, popular among young people, displaying their skating and biking skills, couples enjoying ice-cream or pizza at the benches, and kids playing in the small park.
+      One of Sofia's vibrant pedestrian streets - Vitosha, is just a few minutes walk from the venue.</p>
+
+    <p>There is a subway station, which conveniently exits at the venue entrance, and near the near end to Vitosha street.
+      The subway exits are connected to NDK's underground.</p>
+
+    <br>
+
+    <div class="gallery">
+      <%= link_to image_tag('venue/thumbs/4.jpg'), image_path('venue/4.jpg'), class: 'gallery-item' %>
+      <%= link_to image_tag('venue/thumbs/1.jpg'), image_path('venue/1.jpg'), class: 'gallery-item' %>
+      <%= link_to image_tag('venue/thumbs/3.jpg'), image_path('venue/3.jpg'), class: 'gallery-item' %>
+      <%= link_to image_tag('venue/thumbs/5.jpg'), image_path('venue/5.jpg'), class: 'gallery-item' %>
+    </div>
   </div>
 </section>
 
@@ -42,5 +66,17 @@ title: Sponsors | EuRuKo 2016 - 23-24 September, Sofia
   }
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmQo2_5BXFenNEWdnzaQSV95cMSyeeNFk&callback=initMap" async defer></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.1.6/zepto.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+<script>
+$('.gallery-item').magnificPopup({
+  type: 'image',
+  gallery:{
+    enabled:true
+  }
+  });
+</script>
 
 <%= partial 'footer' %>
