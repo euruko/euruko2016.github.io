@@ -16,6 +16,8 @@ section {
     color: #fff;
 
     h1 { margin-bottom: 1em; }
+
+    p a { text-decoration: underline; color: #fff; }
   }
 
   &.home-tickets {
@@ -63,4 +65,6 @@ section {
   text-align: center;
   color: #fff;
   background-color: $dark-gray;
+  background: $dark-gray url('/images/ruby.svg') no-repeat center center;
+  background-attachment: fixed;
 }
