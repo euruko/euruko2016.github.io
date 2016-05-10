@@ -36,3 +36,12 @@
     }
   }
 }
+
+@include media($mobile) {
+  .sponsors-block {
+    .sponsor {
+      .logo { @include span-columns(1); }
+      .description { @include span-columns(1); }
+    }
+  }
+}

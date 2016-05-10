@@ -3,7 +3,6 @@
     50%  { transform: translateY(10px); }
 }
 
-
 .header {
   overflow: hidden;
   padding: 1em 0 .8em 0;
@@ -51,6 +50,29 @@
     margin-top: 2.5em;
     float: right;
   }
+
+  @include media($mobile) {
+    padding-left: 1em;
+    text-align: center;
+
+    .logo {
+      display: inline-block;
+      float: none;
+
+      img {
+        display: block;
+        float: none;
+        width: em(100px);
+        margin: 0 auto;
+      }
+
+      .summary {
+        display: inline-block;
+        float: none;
+        margin-left: 0;
+      }
+    }
+  }
 }
 
 .main-nav {
@@ -71,6 +93,17 @@
 
     &:hover {
       text-decoration: underline;
+    }
+  }
+
+  @include media($mobile) {
+    & {
+      text-align: center;
+
+      a {
+        margin-right: 1em;
+        margin-bottom: 1em;
+      }
     }
   }
 }
@@ -100,6 +133,12 @@
     font-family: $heading-font-family;
     font-size: 120%;
   }
+
+  @include media($mobile) {
+    padding: 1em;
+
+    p { font-size: 100%; }
+  }
 }
 
 .home-nav {
@@ -110,5 +149,9 @@
 
   a:not(.btn) {
     color: #000;
+  }
+
+  @include media($mobile) {
+    .btn { margin-bottom: 0; }
   }
 }
