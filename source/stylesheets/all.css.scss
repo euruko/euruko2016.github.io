@@ -66,4 +66,8 @@ section {
 
 #map {
   height: em(500px);
+
+  @include media($mobile) {
+    height: em(300px);
+  }
 }

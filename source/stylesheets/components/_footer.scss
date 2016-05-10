@@ -40,4 +40,20 @@
     }
   }
 
+  @include media($mobile) {
+    .col {
+      @include span-columns(1);
+      margin-bottom: 2em;
+    }
+
+    .highlighted-sponsors {
+      @include span-columns(1);
+      margin-bottom: 2em;
+      text-align: center;
+
+      .sponsor {
+        @include span-columns(2 of 4);
+      }
+    }
+  }
 }
