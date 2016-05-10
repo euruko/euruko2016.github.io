@@ -1,3 +1,9 @@
+@keyframes floating {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(10px); }
+}
+
+
 .header {
   overflow: hidden;
   padding: 1em 0 .8em 0;
@@ -82,7 +88,13 @@
   text-align: center;
   background-attachment: fixed;
 
-  img { margin-bottom: 3em; }
+  img {
+    margin-bottom: 3em;
+    transition: all .2s ease-in-out;
+    animation-name: floating;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
 
   p {
     font-family: $heading-font-family;
