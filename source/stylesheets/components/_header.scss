@@ -74,12 +74,13 @@
   background-color: $dark-gray;
   background-image:
     linear-gradient(rgba(43, 52, 60, 0.9), rgba(43, 52, 60, 0.9)),
-    url('/images/header-background-2.jpg');
+    url('/images/header-background.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   color: #fff;
   text-align: center;
+  background-attachment: fixed;
 
   img { margin-bottom: 3em; }
 

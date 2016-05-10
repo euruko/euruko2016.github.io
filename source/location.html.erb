@@ -4,16 +4,17 @@ title: Location | EuRuKo 2016 - 23-24 September, Sofia
 
 <%= partial 'header' %>
 
-<%= partial 'map' %>
-
 <section>
   <div class="wrapper">
-    <h3>Sofia</h3>
-    <p>Last year Sofia was voted the host for Euruko 2016. It's the capital of Bulgaria, and also the largest city in the country.
+    <h3>About Sofia</h3>
+    <p>Last year, Sofia was voted the host for Euruko 2016. Sofia is the capital of Bulgaria, and also the largest city in the country.
       It's located right in the centre of the Balkan Peninsula, at the foot of Vitosha mountain.
       With more than 7000 years of history it's one of the oldest cities in Europe. </p>
 
-    <p>One can easily find their way around Sofia by means of the Sofia Underground, which sports two lines and 34 stations. It makes possible traveling between the city center and the airport in around 30 minutes for less than 1 euro. After visiting all the historical and cultural sights in the city center, attendees can enjoy a walk in Sofia’s many parks and gardens, such as South Park, Borisova Garden or even the Vitosha Mountain National Park.</p>
+    <p>One can easily find their way around Sofia by means of the underground. It has two lines and 34 stations,
+      making possible traveling between the city center and the airport in around 30 minutes for less than 1 euro.
+      Apart from visiting all the historical and cultural sights, you can also enjoy a walk in Sofia’s
+      many parks and gardens, such as South Park, Borisova Garden or even The Vitosha Mountain National Park.</p>
   </div>
 </section>
 
@@ -25,26 +26,25 @@ title: Location | EuRuKo 2016 - 23-24 September, Sofia
   <div class="wrapper">
     <h3>The Venue</h3>
 
-    <p>The National Palace of Culture, is located at the heart of Sofia.
-      It was built in 1981, to serve as a conference and exhibition center for various events.
-      Its vast exhibition spaces, its numerous halls, and the wide views from its spacious balconies contribute to its popularity as an event center to this day.</p>
+    <p>The National Palace of Culture was built in 1981, to serve as a conference and exhibition center for various events.
+      The vast exhibition spaces, numerous halls, and spectacular view from the spacious balconies, contribute to its cult status.</p>
 
-    <p>The area around NDK is a spacious square, popular among young people, displaying their skating and biking skills, couples enjoying ice-cream or pizza at the benches, and kids playing in the small park.
-      One of Sofia's vibrant pedestrian streets - Vitosha, is just a few minutes walk from the venue.</p>
+    <p>The park around NDK is known as one of the hot spots for youngsters (and not only) and is just few minutes walk from one of Sofia's vibrant pedestrian streets - Vitosha.</p>
 
-    <p>There is a subway station, which conveniently exits at the venue entrance, and near the near end to Vitosha street.
-      The subway exits are connected to NDK's underground.</p>
+    <p>There is a metro station, conveniently located right at the venue entrance. </p>
 
     <br>
 
     <div class="gallery">
-      <%= link_to image_tag('venue/thumbs/4.jpg'), image_path('venue/4.jpg'), class: 'gallery-item' %>
       <%= link_to image_tag('venue/thumbs/1.jpg'), image_path('venue/1.jpg'), class: 'gallery-item' %>
-      <%= link_to image_tag('venue/thumbs/3.jpg'), image_path('venue/3.jpg'), class: 'gallery-item' %>
+      <%= link_to image_tag('venue/thumbs/2.jpg'), image_path('venue/2.jpg'), class: 'gallery-item' %>
+      <%= link_to image_tag('venue/thumbs/4.jpg'), image_path('venue/4.jpg'), class: 'gallery-item' %>
       <%= link_to image_tag('venue/thumbs/5.jpg'), image_path('venue/5.jpg'), class: 'gallery-item' %>
     </div>
   </div>
 </section>
+
+<%= partial 'map' %>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.1.6/zepto.min.js"></script>
