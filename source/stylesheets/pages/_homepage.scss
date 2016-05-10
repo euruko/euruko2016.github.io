@@ -1,0 +1,73 @@
+section {
+  &[class^="home-"] {
+    p:last-of-type { margin-bottom: em(20px); }
+  }
+
+  &.home-location {
+    overflow: hidden;
+    background-color: $dark-gray;
+    background-image:
+      linear-gradient(rgba(43, 52, 60, 0.9), rgba(43, 52, 60, 0.9)),
+      url('/images/header-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+
+    h1 { margin-bottom: 1em; }
+
+    p a { text-decoration: underline; color: #fff; }
+  }
+
+  &.home-tickets {
+    padding: $base-spacing;
+    background-color: $red;
+    color: #fff;
+    text-align: center;
+    font-family: $heading-font-family;
+    text-transform: uppercase;
+    font-size: 140%;
+
+    .btn {
+      margin-left: 1em;
+    }
+  }
+
+  &.home-speakers {
+    h1 { margin-bottom: 1em; }
+
+    .speakers-row {
+      @include outer-container;
+      margin-bottom: 2em;
+
+      .speaker {
+        @include span-columns(1 of 4);
+        text-align: center;
+
+        .avatar {
+          img {
+            transition: all .15s ease-in-out;
+            width: 100%;
+            border-radius: 50%;
+            border: 1px solid #bbb;
+          }
+
+          &:hover img { transform: scale(1.03); }
+        }
+
+        & > a:hover { text-decoration: underline; }
+      }
+    }
+  }
+}
+
+.section-title {
+  padding: em(40px, 38px) 0;
+  margin: 0;
+  text-align: center;
+  color: #fff;
+  background-color: $dark-gray;
+  background: $dark-gray url('/images/ruby.svg') no-repeat center center;
+  background-attachment: fixed;
+}

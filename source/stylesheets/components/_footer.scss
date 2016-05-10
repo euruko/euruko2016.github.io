@@ -20,4 +20,24 @@
       text-align: center;
     }
   }
+
+  .highlighted-sponsors {
+    @include span-columns(6);
+
+    h6 {
+      margin-bottom: 2.5em;
+    }
+
+    .unicorn-list {
+      .sponsor {
+        @include span-columns(2 of 8);
+
+        a {
+          img { transition: all .2s ease-in-out; }
+          &:hover img { transform: scale(1.1); }
+        }
+      }
+    }
+  }
+
 }

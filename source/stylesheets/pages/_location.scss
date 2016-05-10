@@ -1,0 +1,24 @@
+.venue-image {
+  position: relative;
+  height: em(500px);
+  background: #ddd url('/images/venue/ndk_view.jpg') no-repeat center center;
+  background-size: cover;
+
+  .attribution {
+    position: absolute;
+    right: 1em;
+    bottom: 1em;
+    font-size: 75%;
+    text-align: right;
+    color: #fff;
+    text-shadow: 0 0 1px rgba(0,0,0,.4);
+  }
+}
+
+.gallery {
+  @include outer-container;
+
+  .gallery-item {
+    @include span-columns(3);
+  }
+}
