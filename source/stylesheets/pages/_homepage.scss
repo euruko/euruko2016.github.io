@@ -56,9 +56,7 @@ section {
           &:hover img { transform: scale(1.03); }
         }
 
-        h5 {
-          a {  }
-        }
+        & > a:hover { text-decoration: underline; }
       }
     }
   }
