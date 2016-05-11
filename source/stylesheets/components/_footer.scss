@@ -58,6 +58,10 @@
 
       .sponsor {
         @include span-columns(2 of 4);
+
+        &:first-child {
+          margin-bottom: 0.5em;
+        }
       }
     }
   }
