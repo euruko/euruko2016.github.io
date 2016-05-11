@@ -24,13 +24,19 @@
   .highlighted-sponsors {
     @include span-columns(6);
 
-    h6 {
-      margin-bottom: 2.5em;
+    @include media($medium-screen-up) {
+      h6 {
+        margin-bottom: 2.5em;
+      }
     }
 
     .unicorn-list {
       .sponsor {
         @include span-columns(2 of 8);
+
+        @include media($mobile) {
+          @include span-columns(1);
+        }
 
         a {
           img { transition: all .2s ease-in-out; }
@@ -48,7 +54,6 @@
 
     .highlighted-sponsors {
       @include span-columns(1);
-      margin-bottom: 2em;
       text-align: center;
 
       .sponsor {
