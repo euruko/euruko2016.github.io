@@ -24,14 +24,10 @@ title: EuRuKo 2016 - 23-24 September, Sofia
     <h1>Speakers</h1>
 
     <div class="speakers-row">
-      <div class="speaker">
-        <%= link_to image_tag('speakers/matz.jpg'), '/speakers', class: 'avatar' %>
-        <%= link_to 'Yukihiro "Matz" Matsumoto', '/speakers' %>
-      </div>
-      <% (1..3).to_a.each do %>
+      <% data.speakers.each do |speaker| %>
         <div class="speaker">
-          <%= link_to image_tag('coming_soon.svg'), '/speakers', class: 'avatar' %>
-          <%= link_to 'Coming Soon', '/speakers' %>
+          <%= link_to image_tag(speaker.image), "/speakers/##{speaker.handle}", class: 'avatar' %>
+          <%= link_to speaker.name, "/speakers/##{speaker.handle}" %>
         </div>
       <% end %>
     </div>
