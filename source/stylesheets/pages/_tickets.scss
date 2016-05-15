@@ -1,0 +1,18 @@
+.tickets {
+  h1 { margin-bottom: 1em; }
+  p { margin-bottom: 2em; }
+}
+
+.faq {
+  p {
+    margin-bottom: 4em;
+
+    &.inner { margin-bottom: 1em; }
+    &:last-of-type { margin-bottom: 0; }
+  }
+
+  ul {
+    list-style: inside square;
+    margin-bottom: 1em;
+  }
+}
