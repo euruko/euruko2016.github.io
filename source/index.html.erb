@@ -23,24 +23,22 @@ title: EuRuKo 2016 - 23-24 September, Sofia
   <div class="wrapper">
     <h1>Speakers</h1>
 
-    <% data.speakers.each_slice(4) do |speakers| %>
-      <div class="speakers-row">
-        <% speakers.each do |speaker| %>
-          <div class="speaker">
-            <%= link_to image_tag(speaker.image), "/speakers##{speaker.handle}", class: 'avatar' %>
-            <%= link_to speaker.name, "/speakers##{speaker.handle}" %>
-          </div>
-        <% end %>
-        <% if speakers.size < 4 %>
-          <% (1..(4 - speakers.size)).each do %>
-            <div class="speaker">
-              <%= link_to image_tag('coming_soon.svg'), '/speakers', class: 'avatar' %>
-              <%= link_to 'Coming Soon', '/speakers' %>
-            </div>
-          <% end %>
-        <% end %>
-      </div>
-    <% end %>
+    <div class="speakers-row">
+      <% data.speakers.each do |speaker| %>
+        <div class="speaker">
+          <%= link_to image_tag(speaker.image), "/speakers##{speaker.handle}", class: 'avatar' %>
+          <%= link_to speaker.name, "/speakers##{speaker.handle}" %>
+        </div>
+      <% end %>
+    </div>
+    <div class="speakers-row">
+      <% (1..4).to_a.each do %>
+        <div class="speaker">
+          <%= link_to image_tag('coming_soon.svg'), '/speakers', class: 'avatar' %>
+          <%= link_to 'Coming Soon', '/speakers' %>
+        </div>
+      <% end %>
+    </div>
     <div class="speakers-row">
       <% (1..4).to_a.each do %>
         <div class="speaker">

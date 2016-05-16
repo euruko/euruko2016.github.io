@@ -17,18 +17,3 @@
   bio: Ruby core team. Rake maintainer. Chief Engineer at GMO Pepabo, Inc.
   image: speakers/hsbt.jpg
   handle: hsbt
-
-- name: Bozhidar Batsov
-  bio: Bozhidar is the author of RuboCop and the editor of the community Ruby style guide. He's involved in a myriad of open-source projects, mostly related to Ruby, Clojure and Emacs. Many people would probably describe him as an Emacs zealot (and they would be right). He's also quite fond of the Lisp family of languages, functional programming in general and Clojure in particular.
-  image: speakers/bozhidar.jpg
-  handle: bbatsov
-
-- name: Nick Sutterer
-  bio: Whenever Open-Source meets deep and profound debates about architecting software, and there's free beers involved, Nick Sutterer must be just around the corner. Say Hi to him, he loves people.
-  image: speakers/nick.jpg
-  handle: apotonick
-
-- name: Marc-Andre Giroux
-  bio: A Jazz guitarist turned developer, Marc-André is currently working at Shopify, trying to make commerce better for everyone. When he's not hacking on Rails, GraphQL or Relay, he likes lifting heavy barbells above his head.
-  image: speakers/giroux.jpg
-  handle: xuorig
