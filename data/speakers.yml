@@ -1,0 +1,19 @@
+- name: Yukihiro "Matz" Matsumoto
+  bio: Yukihiro “Matz” Matsumoto is the mastermind behind the inception of Ruby. Since 1993 he has been designing our precious jewel up to its current version. Meanwhile he has been working on mruby, a lightweight Ruby implementation.
+  image: speakers/matz.jpg
+  handle: matz
+
+- name: José Valim
+  bio: José Valim (<a href="https://twitter.com/josevalim">@josevalim</a>) is the creator of the Elixir programming language and the Director of R&D at Plataformatec, a consultancy firm based in Brazil. He is author of Crafting Rails Applications and Programming Phoenix as well as an active member of the Open Source community.
+  image: speakers/jose.png
+  handle: josevalim
+
+- name: André Arko
+  bio: André thinks Ruby is pretty neat. He leads the Bundler team, co-authored the third edition of The Ruby Way, and founded Ruby Together, the Ruby trade association. At his day job, he provides expert development, architecture, and teaching through Cloud City Development in San Francisco.
+  image: speakers/andre.jpg
+  handle: indirect
+
+- name: SHIBATA Hiroshi
+  bio: Ruby core team. Rake maintainer. Chief Engineer at GMO Pepabo, Inc.
+  image: speakers/hsbt.jpg
+  handle: hsbt

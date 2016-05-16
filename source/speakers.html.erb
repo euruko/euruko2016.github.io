@@ -9,11 +9,13 @@ title: Speakers | EuRuKo 2016 - 23-24 September, Sofia
     <h1>Speakers</h1>
 
     <div class="speakers-list">
-      <div class="speaker">
-        <%= image_tag 'speakers/matz.jpg' %>
-        <h3>Yukihiro "Matz" Matsumoto</h3>
-        <p>Yukihiro “Matz” Matsumoto is the mastermind behind the inception of Ruby. Since 1993 he has been designing our precious jewel up to its current version. Meanwhile he has been working on mruby, a lightweight Ruby implementation.</p>
-      </div>
+      <% data.speakers.each do |speaker| %>
+        <div id="<%= speaker.handle %>" class="speaker">
+          <%= image_tag speaker.image %>
+          <h3><%= speaker.name %></h3>
+          <p><%= speaker.bio %></p>
+        </div>
+      <% end %>
     </div>
   </div>
 </section>
