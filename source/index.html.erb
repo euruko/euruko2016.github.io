@@ -27,8 +27,8 @@ title: EuRuKo 2016 - 23-24 September, Sofia
       <div class="speakers-row">
         <% speakers.each do |speaker| %>
           <div class="speaker">
-            <%= link_to image_tag(speaker.image), "/speakers/##{speaker.handle}", class: 'avatar' %>
-            <%= link_to speaker.name, "/speakers/##{speaker.handle}" %>
+            <%= link_to image_tag(speaker.image), "/speakers##{speaker.handle}", class: 'avatar' %>
+            <%= link_to speaker.name, "/speakers##{speaker.handle}" %>
           </div>
         <% end %>
         <% if speakers.size < 4 %>
