@@ -37,3 +37,23 @@
   bio: Engineer at Yammer London, disguised as past and present on-call tech lead. Enthusiast of reliable sites, continuous development, gifs, food, and gifs of food.
   image: speakers/grace.png
   handle: grace
+
+- name: Carina C. Zona
+  bio: Carina C. Zona is a developer, advocate, and certified sex educator. She spends a lot of time thinking about the unexpected cultural effects of our decisions as programmers. Carina is the founder of CallbackWomen, a developer evangelist for Ruby Together, and co-organizer of the We So Crafty community of techies who craft.
+  image: speakers/carina.jpg
+  handle: cczona
+
+- name: Terence Lee
+  bio: Terence leads Heroku’s Ruby Task Force curating the Ruby experience on the platform. He's worked on some OSS projects such as Ruby (the language), mruby, mruby-cli, Bundler, Resque, as well as helping with the Rails Girls movement. When he’s not going to an awesome Heroku or Ruby event, he lives in Austin, TX. Terence loves Friday hugs (EVERY DAY OF THE WEEK) and believes in getting people together for <a href="https://twitter.com/hashtag/rubykaraoke">#rubykaraoke</a>.
+  image: speakers/terence.png
+  handle: hone02
+
+- name: Andrew Radev
+  bio: Andrew has been working with Ruby and Rails from Before it Was Cool. Well, maybe from Around the Time it Was Sorta Becoming Cool. It's been a while, either way. He's been at the backend, and at the frontend, and in most areas inbetween. He tends to solve his Ruby problems by writing Vimscript, which is how he ended up maintaining vim-ruby, tweeting as <a href="https://twitter.com/vimlinks">@VimLinks</a>, and with a <a href="https://github.com/AndrewRadev">github profile</a> full of Vim plugins.
+  image: speakers/andrew.jpg
+  handle: andrewradev
+
+- name: Ivan Nemytchenko
+  bio: Rubyist since 2006, IT events addict since 2008, speaker since 2010, Lean Poker facilitator since 2015, joined GitLab as developer advocate in 2016. Co-founded two IT-agencies, co-organized two conferences, brewed 50 liters of mulled wine for an afterparty. Has too many interests and produces more ideas than anybody could consume. In 2015 moved to Serbia, where he enjoys life with his great wife and awesome daughter, and travels across nearby countries.
+  image: speakers/ivan.jpg
+  handle: inem
