@@ -1,0 +1,34 @@
+- category: unicorn
+  sponsors:
+    - name: Receipt Bank
+      logo: sponsors/receipt_bank_logo.svg
+      homepage: 'http://www.receipt-bank.com'
+      html: <p>Receipt Bank is an award-winning accounting software used by 30,000+ small business to make bookkeeping effortless. Our automation saves them hundreds of hours every year - and we’re just getting started!</p>
+            <p>We are based around the globe, but our development team is mostly here in Bulgaria. We are a start-up that cares deeply about high quality and sane development practices. We have learned through blood and tears that the best way is almost always through beautiful, easily maintained code.</p>
+            <p>We are down to earth, happy Rails users and extremely proud sponsors of EuRuKo 2016.</p>
+
+    - name: Toptal
+      logo: sponsors/toptal_logo.svg
+      homepage: https://www.toptal.com
+      html: <p>Toptal is an exclusive network of the top freelance software developers and designers in the world.<br>
+            Top companies all over the globe rely on Toptal freelancers for their most important projects.</p>
+            <p>We have no offices and are a completely remote team distributed throughout the world. We are well known for our unorthodox company culture, encouraging our employees to travel any time, anywhere, and not stipulating any mandatory working hours.</p>
+            <p>And one more thing... We totally love Ruby!</p>
+
+- category: webrick
+  sponsors:
+    - name: eMerchantPay
+      logo: sponsors/emerchantpay_logo.svg
+      homepage: https://www.emerchantpay.com
+      html: <p>eMerchantPay is an established payment service provider that provides international online, mobile and POS payment processing services to merchants across the globe. eMerchantPay’s fraud prevention services and payment processing solutions enable merchants to increase their conversion rates, expand their customer reach and prevent fraud. Innovative payment solutions, processing in more than 150 currencies and various languages, plus dedicated account managers providing personal service make eMerchantPay a knowledgeable specialist and an innovative partner for businesses of all types and sizes.</p>
+
+    - name: Hone
+      logo: sponsors/hone_logo.svg
+      homepage: https://hone.eu
+      html: <p>Hone is a small, boutique, software consultancy that helps companies build better products. We provide highly personalized experience while being proactive and transparent in the process. We are quality fanatics and detail is everything for us.</p>
+            <p>Ruby is the heart of our stack and we're terribly excited to support this venture.</p>
+
+    - name: Ruby Together
+      logo: sponsors/ruby_together_logo.png
+      homepage: https://rubytogether.org
+      html: <p>Ruby Together is community funded developer infrastructure. With support from developers and companies from around the world, we can maintain and improve tools that you rely on, including Bundler, RubyGems, and others.</p>
