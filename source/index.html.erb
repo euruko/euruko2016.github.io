@@ -23,17 +23,12 @@ title: EuRuKo 2016 - 23-24 September, Sofia
   <div class="wrapper">
     <h1>Speakers</h1>
 
-    <% (data.speakers + [nil] * 16)[0...16].each_slice(4) do |speakers| %>
+    <% data.speakers.each_slice(4) do |speakers| %>
       <div class="speakers-row">
         <% speakers.each do |speaker| %>
           <div class="speaker">
-          <% if speaker %>
             <%= link_to image_tag(speaker.image), "/speakers##{speaker.handle}", class: 'avatar' %>
             <%= link_to speaker.name, "/speakers##{speaker.handle}" %>
-          <% else %>
-            <%= link_to image_tag('coming_soon.svg'), '/speakers', class: 'avatar' %>
-            <%= link_to 'Coming Soon', '/speakers' %>
-          <% end %>
           </div>
         <% end %>
       </div>

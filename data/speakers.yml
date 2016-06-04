@@ -57,3 +57,23 @@
   bio: Rubyist since 2006, IT events addict since 2008, speaker since 2010, Lean Poker facilitator since 2015, joined GitLab as developer advocate in 2016. Co-founded two IT-agencies, co-organized two conferences, brewed 50 liters of mulled wine for an afterparty. Has too many interests and produces more ideas than anybody could consume. In 2015 moved to Serbia, where he enjoys life with his great wife and awesome daughter, and travels across nearby countries.
   image: speakers/ivan.jpg
   handle: inem
+
+- name: Marta Radeva
+  bio: Architect at heart. She splits her days (and nights) between IRchitect, a design studio she co-founded, and CodeRunners, where she's a junior Rails developer. She discovered her long lost love for coding at a Rails Girls event in Sofia two years ago, and thanks to a bunch of awesome people in the local community has since added Rails to her toolbelt. Enjoys solving problems and creating stuff.
+  image: speakers/marta.jpg
+  handle: mradeva
+
+- name: Rafael França
+  bio: Member of the Rails Core Team. Spends the days solving problems at <a href="https://shopify.com">Shopify</a> and the nights contributing to several OSS projects.
+  image: speakers/rafael.jpg
+  handle: rafaelfranca
+
+- name: Vipul Amler
+  bio: Vipul is Director at BigBinary LLC. He is part of Rails Team, and helps triaging issues. His spare time is spent exploring and contributing to many Open Source ruby projects, when not dabbling with React JS. He has recently authored <a href="https://www.bigbinary.com/building-modern-web-applications-with-reactjs">ReactJS by Example</a>, that does a deep walk-through of using ReactJS. Vipul loves Ruby's vibrant community and helps in building PuneRb, is the founder of and runs RubyIndia Community. He also organizes <a href="http://www.deccanrubyconf.org/">DeccanRubyConf</a> in Pune.
+  image: speakers/vipul.jpg
+  handle: vipulnsward
+
+- name: Anton Davydov
+  bio: Anton is an indie developer from Moscow. He works on different side projects and builds Space-Rocket ships at night. Also, he loves open source, which is why he is a Sidekiq and Hanami committer.
+  image: speakers/anton.jpg
+  handle: davydovanton
