@@ -43,9 +43,12 @@ section {
 
       .speaker {
         @include span-columns(1 of 4);
-        overflow: hidden;
         text-align: center;
-        text-overflow: ellipsis;
+
+        @include media($mobile) {
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
 
         .avatar {
           img {
