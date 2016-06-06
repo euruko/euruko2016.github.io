@@ -13,7 +13,7 @@
   image: speakers/andre.jpg
   handle: indirect
 
-- name: SHIBATA Hiroshi
+- name: Hiroshi Shibata
   bio: Ruby core team. Rake maintainer. Chief Engineer at GMO Pepabo, Inc.
   image: speakers/hsbt.jpg
   handle: hsbt
