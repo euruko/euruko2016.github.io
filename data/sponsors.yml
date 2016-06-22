@@ -15,13 +15,13 @@
             <p>We have no offices and are a completely remote team distributed throughout the world. We are well known for our unorthodox company culture, encouraging our employees to travel any time, anywhere, and not stipulating any mandatory working hours.</p>
             <p>And one more thing... We totally love Ruby!</p>
 
-- category: webrick
-  sponsors:
     - name: eMerchantPay
       logo: sponsors/emerchantpay_logo.svg
       homepage: https://www.emerchantpay.com
       html: <p>eMerchantPay is an established payment service provider that provides international online, mobile and POS payment processing services to merchants across the globe. eMerchantPay’s fraud prevention services and payment processing solutions enable merchants to increase their conversion rates, expand their customer reach and prevent fraud. Innovative payment solutions, processing in more than 150 currencies and various languages, plus dedicated account managers providing personal service make eMerchantPay a knowledgeable specialist and an innovative partner for businesses of all types and sizes.</p>
 
+- category: webrick
+  sponsors:
     - name: Hone
       logo: sponsors/hone_logo.svg
       homepage: https://hone.eu
