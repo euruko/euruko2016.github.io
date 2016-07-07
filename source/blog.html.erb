@@ -1,0 +1,29 @@
+---
+title: Blog | EuRuKo 2016 - 23-24 September, Sofia
+---
+
+<%= partial 'header' %>
+
+<section class="blog">
+  <div class="wrapper">
+    <% blog.articles.each do |article| %>
+      <article>
+        <h2><a href="<%= article.url %>"><%= article.title %></a></h2>
+
+        <div class="meta">
+          <time><%= article.date.strftime('%b %e %Y') %></time>
+        </div>
+
+        <%= article.summary %>
+
+        <a href="<%= article.url %>">Read more</a>
+      </article>
+    <% end %>
+  </div>
+</section>
+
+<section class="light">
+  <%= partial 'newsletter' %>
+</section>
+
+<%= partial 'footer' %>
