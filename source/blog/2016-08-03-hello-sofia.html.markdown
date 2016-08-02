@@ -42,8 +42,8 @@ sure that the “TRANSPORT (leva per km)” prices are not more than 1.00 lv.
 
 ## Hotels
 
-There are many hotels around the venue. We recommend you book one in downtown
-Sofia, perfectly, in a walking distance of the venue. As usual, the earlier you
+There are many hotels around the venue. We recommend that you book one in downtown
+Sofia, preferebly, in a walking distance of the venue. As usual, the earlier you
 book, the better chances you have to get a room at a conveniently close hotel.
 
 The ones closest to the venue are:
