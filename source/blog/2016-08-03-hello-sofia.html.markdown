@@ -30,9 +30,9 @@ blue">blue</span>). Line 1 connects the districts of Lyulin and Mladost, while
 Line 2 connects the Obelya and Lozenets districts. The National Palace of
 Culture (NDK) station is on the blue line.  If you're coming directly from the
 airport, you should change at Serdika station (<span style="color:
-red">red</span>) to the <span style="color: blue">blue</span> line, and take
-the train in the <span>Lozenets</span> direction. You will need to get off at the next
-station – NDK.
+red">red</span>) and take the train in the <span>Lozenets</span> (<span
+style="color: blue">blue</span>)  direction. You will need to get off at the
+next station – NDK.
 
 If your flight arrives late, your only option might be taking a taxi to the
 city center. You may wanna avoid taking a taxi from the folks right at the
