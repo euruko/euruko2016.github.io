@@ -7,6 +7,7 @@
 @import "base/base";
 
 $mobile: new-breakpoint(max-width 480px 1);
+$landscape: new-breakpoint(max-width 880px 1);
 $narrow: new-breakpoint(max-width 1120px 1);
 
 @import "components/header";

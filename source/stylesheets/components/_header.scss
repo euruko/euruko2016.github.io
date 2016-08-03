@@ -51,7 +51,7 @@
     float: right;
   }
 
-  @include media($mobile) {
+  @include media($landscape) {
     padding-left: 1em;
     text-align: center;
 
@@ -71,6 +71,10 @@
         float: none;
         margin-left: 0;
       }
+    }
+
+    .main-nav {
+      float: none;
     }
   }
 }
