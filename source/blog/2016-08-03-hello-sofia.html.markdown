@@ -3,12 +3,12 @@ title: Welcome to Sofia!
 date: 2016/08/03
 ---
 
-![Alexander Nevsky Cathedral](2016-08-03-hello-sofia/nevski.jpg)
-
 Hello everyone! Svetlozar T. from the EuRuKo 2016 team here, bringing you some
 more info about Sofia, the host city of this year's conference. If it is your
 first time coming to Sofia, do not worry - the end of September usually still
 retains the charm of late summer, minus the hot weather.
+
+![Alexander Nevsky Cathedral](2016-08-03-hello-sofia/nevski.jpg)
 
 In our first blog post, let us cover some basic info about getting around Sofia,
 namely public transport and accommodation.
