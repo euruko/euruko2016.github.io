@@ -72,3 +72,38 @@ section {
     height: em(300px);
   }
 }
+
+// blog
+.blog {
+  h1 {
+    margin-bottom: em(15, 18);
+  }
+
+  article {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+
+    h1, h2 {
+      margin-bottom: 0.5em;
+    }
+
+    ul {
+      margin-bottom: 0.75em;
+    }
+
+    .meta {
+      margin: em(20, 18) 0;
+      color: $medium-gray;
+      font-size: 90%;
+    }
+  }
+}
+
+.single-post {
+  article {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border: 0;
+  }
+}
