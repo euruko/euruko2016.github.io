@@ -27,6 +27,11 @@
       homepage: http://www.fyber.com
       html: <p>Fyber connects app developers and media companies with advertisers through the power of technology. Across every device. We are an independent advertising technology company devoted to delivering global audiences at scale through a powerful cross-platform monetization & advertising solution. Our SSP, Ad Server, Exchange and Mediation products empower thousands of the world’s leading app developers and publishers to generate business-critical revenue streams and serves over half a billion monthly active users globally.</p>
 
+    - name: Deliveroo
+      logo: sponsors/deliveroo_logo.svg
+      homepage: http://www.deliveroo.co.uk
+      html: <p>Deliveroo has taken the world by storm. By providing the complex logistical support needed to high end restaurants, we're delivering some the best restaurant meals in the world to your door! We're a fun, sociable team of Ruby developers always looking to learn and develop our skills together! We're delighted to be sponsoring EuRuKo, come and say hey to us during the event!</p>
+
 - category: webrick
   sponsors:
     - name: Hone
