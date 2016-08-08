@@ -58,10 +58,10 @@
   image: speakers/ivan.jpg
   handle: inem
 
-- name: Marta Radeva
-  bio: Architect at heart. She splits her days (and nights) between IRchitect, a design studio she co-founded, and CodeRunners, where she's a junior Rails developer. She discovered her long lost love for coding at a Rails Girls event in Sofia two years ago, and thanks to a bunch of awesome people in the local community has since added Rails to her toolbelt. Enjoys solving problems and creating stuff.
-  image: speakers/marta.jpg
-  handle: mradeva
+- name: Xavier Noria
+  bio: Xavier Noria is an everlasting student and father of the most wonderful girl. An independent Ruby on Rails consultant from Barcelona, Xavier is a member of the Ruby on Rails core team, Ruby Hero, and proud author of Rails Contributors.
+  image: speakers/xavier.jpg
+  handle: fxn
 
 - name: Rafael França
   bio: Member of the Rails Core Team. Spends the days solving problems at <a href="https://shopify.com">Shopify</a> and the nights contributing to several OSS projects.
