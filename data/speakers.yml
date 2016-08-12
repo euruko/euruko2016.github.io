@@ -58,11 +58,6 @@
   image: speakers/ivan.jpg
   handle: inem
 
-- name: Xavier Noria
-  bio: Xavier Noria is an everlasting student and father of the most wonderful girl. An independent Ruby on Rails consultant from Barcelona, Xavier is a member of the Ruby on Rails core team, Ruby Hero, and proud author of Rails Contributors.
-  image: speakers/xavier.jpg
-  handle: fxn
-
 - name: Rafael França
   bio: Member of the Rails Core Team. Spends the days solving problems at <a href="https://shopify.com">Shopify</a> and the nights contributing to several OSS projects.
   image: speakers/rafael.jpg
@@ -77,3 +72,8 @@
   bio: Anton is an indie developer from Moscow. He works on different side projects and builds Space-Rocket ships at night. Also, he loves open source, which is why he is a Sidekiq and Hanami committer.
   image: speakers/anton.jpg
   handle: davydovanton
+
+- name: Xavier Noria
+  bio: Xavier Noria is an everlasting student and father of the most wonderful girl. An independent Ruby on Rails consultant from Barcelona, Xavier is a member of the Ruby on Rails core team, Ruby Hero, and proud author of Rails Contributors.
+  image: speakers/xavier.jpg
+  handle: fxn
