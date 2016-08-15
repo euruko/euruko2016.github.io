@@ -81,26 +81,26 @@ power substations for the bulk of graffiti art here.
 
   function initMap() {
     var markers = [
-			{title: 'National Palace of Culture', position: {lat: 42.6847664, lng: 23.3189169}},
-			{title: 'St. George', position: {lat: 42.697758, lng: 23.322875}}
-		];
+      {title: 'National Palace of Culture', position: {lat: 42.6847664, lng: 23.3189169}},
+      {title: 'St. George', position: {lat: 42.697758, lng: 23.322875}}
+    ];
 
     map = new google.maps.Map(document.getElementById('map'), {
-			center: markers[1].position,
+      center: markers[1].position,
       scrollwheel: false,
       zoom: 14
     });
 
-		for (var i = 0, len = markers.length; i < len; i++) {
-			var marker = markers[i];
+    for (var i = 0, len = markers.length; i < len; i++) {
+      var marker = markers[i];
 
-			new google.maps.Marker({
-				position: marker.position,
-				map: map,
-				title: marker.title,
-				icon: '/images/map-pin.svg'
-			});
-		}
+      new google.maps.Marker({
+        position: marker.position,
+        map: map,
+        title: marker.title,
+        icon: '/images/map-pin.svg'
+      });
+    }
   }
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmQo2_5BXFenNEWdnzaQSV95cMSyeeNFk&callback=initMap" async defer></script>
