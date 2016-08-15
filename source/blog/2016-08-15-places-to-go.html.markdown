@@ -17,6 +17,8 @@ emperors, an administrative centre under the First Bulgarian Kingdom, and a
 capital of an Ottoman province. You can see a monument of almost each
 historical era inside the city.
 
+![roman](2016-08-15-places-to-go/roman.jpg)
+
 For example, if you take a walk around Serdika metro station, you can see the
 oldest building in Sofia - the [Church of Saint George](https://en.wikipedia.org/wiki/Church_of_St._George,_Sofia).
 
@@ -26,15 +28,21 @@ Roman road. Some of the buildings even had underfloor heating - look for the
 square tiles. The church itself is most famous for its murals, dating all the
 way back to 10th century.
 
+![baths](2016-08-15-places-to-go/baths.jpg)
+
 If you are wondering how the heating worked, the answer is: hot springs. Sofia
 is famous for its many mineral hot springs. If you go just past the [Sofia
 Central Bath](https://en.wikipedia.org/wiki/Sofia_Central_Mineral_Baths), you will see people filling bottles of hot mineral water. The
 taps are free to use and the mineral water is fresh from the hot spring.
 
+![st. sofia](2016-08-15-places-to-go/sofia.jpg)
+
 You can find another ancient building further to the east - the [Saint Sofia
 Church](https://en.wikipedia.org/wiki/Saint_Sofia_Church,_Sofia). It dates back to the 6th century, and stands in the middle of what was
 once an ancient necropolis. You can even visit some of the unearthed tombs
 below the church. Also, St. Sofia gave the city its name in the 14th century. 
+
+![nevsky](2016-08-15-places-to-go/nevsky.jpg)
 
 Just next to St. Sofia church is the [Alexander Nevsky Cathedral](https://en.wikipedia.org/wiki/Alexander_Nevsky_Cathedral,_Sofia). Not long ago
 it boasted the title of the world's biggest Orthodox cathedral. It's currently
@@ -48,6 +56,8 @@ make sure to visit before closing time (around 7:30pm).
 Sofia is the capital city of Bulgaria, and its population is about 1.26 million
 people. Apart from the traffic jams and crowds in public transport in peak
 hours, it rarely feels crowded.
+
+![vitoshka](2016-08-15-places-to-go/vitoshka.jpg)
 
 That said, one might still feel a bit overwhelmed by the pedestrian traffic on
 [Vitosha boulevard](https://en.wikipedia.org/wiki/Vitosha_Boulevard) on weekends. Vitosha boulevard bridges the [NDK](https://en.wikipedia.org/wiki/NDK_Metro_Station) and [Serdika](https://en.wikipedia.org/wiki/Serdika_Metro_Station) metro stations. It is one of the places that locals go to
