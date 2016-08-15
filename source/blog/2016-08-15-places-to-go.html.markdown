@@ -94,7 +94,7 @@ Finally, to justify the title of this blog post, here is some valuable info abou
     ];
 
     map = new google.maps.Map(document.getElementById('map'), {
-      center: markers[0].position,
+      center: {lat: 42.6935323, lng: 23.3273342},
       scrollwheel: false,
       zoom: 15
     });
