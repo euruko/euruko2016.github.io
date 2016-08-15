@@ -1,5 +1,5 @@
 ---
-title: Places to (Pokemon) Go!
+title: Places to (Pokemon) Go
 date: 2016/08/15
 ---
 
@@ -73,6 +73,29 @@ substations, but you can also spot some on the odd wall. Rakovski street is a
 rather busy street bustling with traffic. It is also known as the Bulgarian
 Broadway, because of its many theaters. Again, you should be looking at the
 power substations for the bulk of graffiti art here.
+
+<div id="map"></div>
+
+<script>
+  var map;
+  var venue_location = {lat: 42.6847664, lng: 23.3189169};
+
+  function initMap() {
+    map = new google.maps.Map(document.getElementById('map'), {
+      center: venue_location,
+      scrollwheel: false,
+      zoom: 16
+    });
+
+    var marker = new google.maps.Marker({
+      position: venue_location,
+      map: map,
+      title: 'National Palace of Culture',
+      icon: '/images/map-pin.svg'
+    });
+  }
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmQo2_5BXFenNEWdnzaQSV95cMSyeeNFk&callback=initMap" async defer></script>
 
 These are but a few places that we would recommend checking out. There is
 plenty to do and plenty to see in Sofia. Keep an eye out for a special blog
