@@ -3,9 +3,7 @@ title: Places to (Pokemon) Go
 date: 2016/08/15
 ---
 
-Hello everyone! Svetlozar T. from the EuRuKo 2016 team here.
-
-In our previous blog post we covered some info on how to get to the venue and
+Hello everyone! Svetlozar T. from the EuRuKo 2016 team here.  In our previous blog post we covered some info on how to get to the venue and
 where to sleep. Hope this has been useful!
 
 In this blog post, we will take a look at some info about Sofia and its sights.
