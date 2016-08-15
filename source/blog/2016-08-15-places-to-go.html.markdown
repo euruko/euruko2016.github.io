@@ -81,14 +81,21 @@ power substations for the bulk of graffiti art here.
 
   function initMap() {
     var markers = [
-      {title: 'National Palace of Culture', position: {lat: 42.6847664, lng: 23.3189169}},
-      {title: 'St. George', position: {lat: 42.697758, lng: 23.322875}}
+      {title: 'St. George Church', position: {lat: 42.6968412, lng: 23.3225269}},
+      {title: 'Central Mineral Baths', position: {lat: 42.6989583, lng: 23.3229119}},
+      {title: 'St. Sofia Church', position: {lat: 42.6963252, lng: 23.3312535}},
+      {title: 'Alexander Nevsky Cathedral', position: {lat: 42.6954047, lng: 23.3332101}},
+      {title: 'Vitosa boulevard', position: {lat: 42.6913441, lng: 23.3197136}},
+      {title: 'City Garden', position: {lat: 42.6945032, lng: 23.3251653}},
+      {title: 'St. Sedmochislenitsi Church', position: {lat: 42.6893937, lng: 23.3276991}},
+      {title: 'Rakovski Str', position: {lat: 42.6935323, lng: 23.3273342}},
+      {title: 'National Palace of Culture', position: {lat: 42.6847664, lng: 23.3189169}}
     ];
 
     map = new google.maps.Map(document.getElementById('map'), {
-      center: markers[1].position,
+      center: markers[0].position,
       scrollwheel: false,
-      zoom: 14
+      zoom: 15
     });
 
     for (var i = 0, len = markers.length; i < len; i++) {
