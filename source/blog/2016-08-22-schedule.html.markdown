@@ -37,3 +37,14 @@ technologies.
 | 17:40 | 18:20 | André Arko – A Year of Ruby, Together |
 | 18:30 | 19:10 | Bozhidar Batsov – Ruby 4: To Infinity and Beyond |
 | 19:10 | 19:30 | Closing ceremony |
+
+## EuRuKo.next
+
+Every year EuRuKo attendees vote for the next city host of the conference.
+The voting will happen at the conference after party, which will be held on
+Friday night, 23th of September.
+
+If you want to pitch your favourite European city and organize EuRuKo in it,
+prepare a short presentation and 2 minutes of awesome words about the city.
+Oh, and remember – you _will_ organize the conference, be prepared for that as
+well.
