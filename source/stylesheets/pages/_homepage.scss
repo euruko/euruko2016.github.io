@@ -20,6 +20,20 @@ section {
     p a { text-decoration: underline; color: #fff; }
   }
 
+  &.home-schedule {
+    padding: $base-spacing;
+    background-color: $red;
+    color: #fff;
+    text-align: center;
+    font-family: $heading-font-family;
+    text-transform: uppercase;
+    font-size: 140%;
+
+    .btn {
+      margin-left: 1em;
+    }
+  }
+
   &.home-tickets {
     padding: $base-spacing;
     background-color: $red;
