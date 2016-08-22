@@ -26,3 +26,14 @@ activate :blog do |blog|
   blog.prefix = "blog"
   blog.layout = "blog_layout"
 end
+
+helpers do
+  def avatar(speaker, w: nil, h: nil)
+    image = image_tag(speaker.image, width: w, height: h)
+    link_to image, "/speakers##{speaker.handle}", class: 'avatar'
+  end
+
+  def speakers(handle)
+    data.speakers.find { |s| s.handle == handle.to_s } or raise KeyError, handle
+  end
+end
