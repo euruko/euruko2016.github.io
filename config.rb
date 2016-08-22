@@ -19,7 +19,7 @@ configure :build do
 end
 
 activate :gh_pages do |gh_pages|
-  gh_pages.remote = 'git@github.com:euruko/euruko2016.github.io.git'
+  gh_pages.remote = 'https://github.com/euruko/euruko2016.github.io'
 end
 
 activate :blog do |blog|
