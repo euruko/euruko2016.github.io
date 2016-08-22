@@ -32,6 +32,11 @@
       homepage: http://www.deliveroo.co.uk
       html: <p>Deliveroo has taken the world by storm. By providing the complex logistical support needed to high end restaurants, we're delivering some the best restaurant meals in the world to your door! We're a fun, sociable team of Ruby developers always looking to learn and develop our skills together! We're delighted to be sponsoring EuRuKo, come and say hey to us during the event!</p>
 
+    - name: Sqreen
+      logo: sponsors/sqreen_logo.svg
+      homepage: https://www.sqreen.io/
+      html: <p>Sqreen is an automated and continuous security solution for developers. It protects web applications with no source code modification or traffic redirection. Once deployed, the solution provides real-time monitoring and protection against a large set of vulnerabilities incl. SQL/command injections, cross-site scripting (XSS), data exfiltration, etc.</p>
+
 - category: webrick
   sponsors:
     - name: Hone
