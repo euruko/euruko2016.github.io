@@ -1,0 +1,39 @@
+---
+title: Schedule
+date: 2016/08/22
+---
+
+People of the Earth, we have the conference schedule ready for you! Prepare
+yourself for two intense days of lectures about Ruby and satellite
+technologies.
+
+## Friday (23 September 2016)
+
+| 9:00  | 10:00 | Registration |
+| 10:00 | 10:40 | Yukihiro Matsumoto. Keynote |
+| 10:50 | 11:30 | Xavier Noria – Little Snippets |
+| 11:40 | 12:20 | Andrew Radev – Rules, Laws, and Gentle Guidelines  |
+| 12:20 | 14:00 | Lunch |
+| 14:00 | 14:40 | Terence Lee – Simplifying Logs, Events, and Streams: Kafka + Rails |
+| 14:50 | 15:30 | Marc-Andre Giroux – GraphQL on Rails |
+| 15:40 | 16:00 | Vipul Amler – ActionCable, Rails API and React– Modern Single Page Apps |
+| 16:10 | 16:50 | Coffee break |
+| 17:00 | 17:40 | Grace Chang – Herding Cats to a Firefight: The evolution of an engineering on–call team |
+| 17:50 | 18:30 | Rafael Mendonça França – How Sprockets works |
+| 18:30 | 19:00 | Lightning talks |
+
+## Saturday (24 September 2016)
+
+| 9:00  | 10:00 | Morning Coffee |
+| 10:00 | 10:40 | José Valim – Idioms for building distributed fault–tolerant applications with Elixir |
+| 10:50 | 11:30 | Hiroshi Shibata – How to begin to develop Ruby core.  |
+| 11:40 | 12:20 | Carina C. Zona – Consequences of an Insightful Algorithm |
+| 12:20 | 13:50 | Lunch |
+| 14:00 | 14:40 | Nick Sutterer – The Illusion of Stable APIs |
+| 14:50 | 15:30 | Anton Davydov – Viewing ruby blossom |
+| 15:40 | 16:20 | Ivan Nemytchenko – What have I learned from organizing remote internship for ruby developers |
+| 16:30 | 16:50 | Coffee break |
+| 17:00 | 17:30 | Lightning talks |
+| 17:40 | 18:20 | André Arko – A Year of Ruby, Together |
+| 18:30 | 19:10 | Bozhidar Batsov – Ruby 4: To Infinity and Beyond |
+| 19:10 | 19:30 | Closing ceremony |
