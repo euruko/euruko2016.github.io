@@ -4,13 +4,13 @@ date: 2016/08/29
 ---
 
 Hello there fine folks, hope you are having a great Monday! As EuRuKo is run by
-community volunteers each year, we feels it is important for us to make it as
-accessible to anyone as we can. This is why we want to offer a bunch of
+community volunteers each year, we feel it is important for us to make it as
+accessible as possible to everyone. This is why we want to offer a bunch of
 free tickets.
 
 ## Sponsorship
 
-Do you feel you represent a minority or the LGBTQ community? Are you a student
+Do you represent a minority or the LGBTQ community? Are you a student
 who cannot afford the price of admission?
 
 If the answer to any of the questions above is **YES**, and you are passionate
