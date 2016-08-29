@@ -25,6 +25,7 @@ end
 activate :blog do |blog|
   blog.prefix = "blog"
   blog.layout = "blog_layout"
+  blog.summary_separator = /\n\n/
 end
 
 helpers do
