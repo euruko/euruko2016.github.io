@@ -10,11 +10,12 @@ free tickets.
 
 ## Sponsorship
 
-Do you represent a minority or the LGBTQ community? Are you a student
-who cannot afford the price of admission?
+Are you a member of a social minority underrepresented in technology? Are you a
+student, or a beginner who feels uncertain whether they are ready to attend a
+conference? And are you passionate about Ruby and the community?
 
-If the answer to any of the questions above is **YES**, and you are passionate
-about Ruby, we want to have you here!
+If the answer to any of the questions above is **YES**, you can apply for a
+free ticket. We offer a limited number of them.
 
 ## Application
 
@@ -23,11 +24,6 @@ We will try our best to get back to you as soon as we can.
 
 _(All of your answers will be available only to us, the conference organizers.
 We won't be giving this data to anyone else.)_
-
-## Fairness
-
-Please be fair and only apply for the tickets, if you cannot afford them. We
-offer a limited number of them.
 
 May the Ruby be with you!
 
