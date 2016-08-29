@@ -10,8 +10,8 @@ free tickets.
 
 ## Sponsorship
 
-Do you feel you represent a minority? Or maybe you represent the LGBTQ
-community? Are you a student who cannot afford the price of admission?
+Do you feel you represent a minority or the LGBTQ community? Are you a student
+who cannot afford the price of admission?
 
 If the answer to any of the questions above is **YES**, and you are passionate
 about Ruby, we want to have you here!
