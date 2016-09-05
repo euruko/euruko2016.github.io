@@ -1,0 +1,36 @@
+.schedule {
+  &:last-child {
+    margin-top: 4em;
+  }
+
+  td, th {
+    border: none;
+    padding: $small-spacing;
+    text-align: left;
+
+    &:nth-child(-n+2) {
+      width: 15%;
+    }
+  }
+
+  thead, tfoot {
+    tr {
+      background-color: $dark-gray;
+      color: white;
+    }
+  }
+
+  tbody {
+    tr:nth-child(odd) {
+      background-color: $light-gray;
+    }
+
+    td {
+      .addon {
+        font-size: 1em;
+        font-weight: bold;
+        color: lighten($dark-gray, 40%);
+      }
+    }
+  }
+}
