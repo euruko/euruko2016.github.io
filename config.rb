@@ -34,7 +34,7 @@ helpers do
     link_to image, "/speakers##{speaker.handle}", class: 'avatar'
   end
 
-  def speakers(handle)
+  def speaker(handle)
     data.speakers.find { |s| s.handle == handle.to_s } or raise KeyError, handle
   end
 end
