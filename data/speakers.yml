@@ -1,79 +1,95 @@
 - name: Yukihiro "Matz" Matsumoto
   bio: Yukihiro “Matz” Matsumoto is the mastermind behind the inception of Ruby. Since 1993 he has been designing our precious jewel up to its current version. Meanwhile he has been working on mruby, a lightweight Ruby implementation.
+  talk: Keynote
   image: speakers/matz.jpg
   handle: matz
 
 - name: José Valim
   bio: José Valim (<a href="https://twitter.com/josevalim">@josevalim</a>) is the creator of the Elixir programming language and the Director of R&D at Plataformatec, a consultancy firm based in Brazil. He is author of Crafting Rails Applications and Programming Phoenix as well as an active member of the Open Source community.
+  talk: Idioms for Building Distributed Fault–Tolerant Applications with Elixir
   image: speakers/jose.png
   handle: josevalim
 
 - name: André Arko
   bio: André thinks Ruby is pretty neat. He leads the Bundler team, co-authored the third edition of The Ruby Way, and founded Ruby Together, the Ruby trade association. At his day job, he provides expert development, architecture, and teaching through Cloud City Development in San Francisco.
+  talk: A Year of Ruby, Together
   image: speakers/andre.jpg
   handle: indirect
 
 - name: Hiroshi Shibata
   bio: Ruby core team. Rake maintainer. Chief Engineer at GMO Pepabo, Inc.
+  talk: How to Begin to Develop Ruby Core
   image: speakers/hsbt.jpg
   handle: hsbt
 
 - name: Bozhidar Batsov
   bio: Bozhidar is the author of RuboCop and the editor of the community Ruby style guide. He's involved in a myriad of open-source projects, mostly related to Ruby, Clojure and Emacs. Many people would probably describe him as an Emacs zealot (and they would be right). He's also quite fond of the Lisp family of languages, functional programming in general and Clojure in particular.
+  talk: 'Ruby 4: To Infinity and Beyond'
   image: speakers/bozhidar.jpg
   handle: bbatsov
 
 - name: Nick Sutterer
   bio: Whenever Open-Source meets deep and profound debates about architecting software, and there's free beers involved, Nick Sutterer must be just around the corner. Say Hi to him, he loves people.
+  talk: The Illusion of Stable APIs
   image: speakers/nick.jpg
   handle: apotonick
 
 - name: Marc-Andre Giroux
   bio: A Jazz guitarist turned developer, Marc-André is currently working at Shopify, trying to make commerce better for everyone. When he's not hacking on Rails, GraphQL or Relay, he likes lifting heavy barbells above his head.
+  talk: GraphQL on Rails
   image: speakers/giroux.jpg
   handle: xuorig
 
 - name: Grace Chang
   bio: Engineer at Yammer London, disguised as past and present on-call tech lead. Enthusiast of reliable sites, continuous development, gifs, food, and gifs of food.
+  talk: 'Herding Cats to a Firefight: The Evolution of an Engineering On–Call Team'
   image: speakers/grace.png
   handle: grace
 
 - name: Carina C. Zona
   bio: Carina C. Zona is a developer, advocate, and certified sex educator. She spends a lot of time thinking about the unexpected cultural effects of our decisions as programmers. Carina is the founder of CallbackWomen, a developer evangelist for Ruby Together, and co-organizer of the We So Crafty community of techies who craft.
+  talk: Consequences of an Insightful Algorithm
   image: speakers/carina.jpg
   handle: cczona
 
 - name: Terence Lee
   bio: Terence leads Heroku’s Ruby Task Force curating the Ruby experience on the platform. He's worked on some OSS projects such as Ruby (the language), mruby, mruby-cli, Bundler, Resque, as well as helping with the Rails Girls movement. When he’s not going to an awesome Heroku or Ruby event, he lives in Austin, TX. Terence loves Friday hugs (EVERY DAY OF THE WEEK) and believes in getting people together for <a href="https://twitter.com/hashtag/rubykaraoke">#rubykaraoke</a>.
+  talk: 'Simplifying Logs, Events, and Streams: Kafka + Rails'
   image: speakers/terence.png
   handle: hone02
 
 - name: Andrew Radev
   bio: Andrew has been working with Ruby and Rails from Before it Was Cool. Well, maybe from Around the Time it Was Sorta Becoming Cool. It's been a while, either way. He's been at the backend, and at the frontend, and in most areas inbetween. He tends to solve his Ruby problems by writing Vimscript, which is how he ended up maintaining vim-ruby, tweeting as <a href="https://twitter.com/vimlinks">@VimLinks</a>, and with a <a href="https://github.com/AndrewRadev">github profile</a> full of Vim plugins.
+  talk: Rules, Laws, and Gentle Guidelines
   image: speakers/andrew.jpg
   handle: andrewradev
 
 - name: Ivan Nemytchenko
   bio: Rubyist since 2006, IT events addict since 2008, speaker since 2010, Lean Poker facilitator since 2015, joined GitLab as developer advocate in 2016. Co-founded two IT-agencies, co-organized two conferences, brewed 50 liters of mulled wine for an afterparty. Has too many interests and produces more ideas than anybody could consume. In 2015 moved to Serbia, where he enjoys life with his great wife and awesome daughter, and travels across nearby countries.
+  talk: What I Have Learned from Organizing Remote Internship for Ruby developers
   image: speakers/ivan.jpg
   handle: inem
 
 - name: Rafael França
   bio: Member of the Rails Core Team. Spends the days solving problems at <a href="https://shopify.com">Shopify</a> and the nights contributing to several OSS projects.
   image: speakers/rafael.jpg
+  talk: How Sprockets Works
   handle: rafaelfranca
 
 - name: Vipul Amler
   bio: Vipul is Director at BigBinary LLC. He is part of Rails Team, and helps triaging issues. His spare time is spent exploring and contributing to many Open Source ruby projects, when not dabbling with React JS. He has recently authored <a href="https://www.bigbinary.com/building-modern-web-applications-with-reactjs">ReactJS by Example</a>, that does a deep walk-through of using ReactJS. Vipul loves Ruby's vibrant community and helps in building PuneRb, is the founder of and runs RubyIndia Community. He also organizes <a href="http://www.deccanrubyconf.org/">DeccanRubyConf</a> in Pune.
+  talk: ActionCable, Rails API and React – Modern Single-Page Apps
   image: speakers/vipul.jpg
   handle: vipulnsward
 
 - name: Anton Davydov
   bio: Anton is an indie developer from Moscow. He works on different side projects and builds Space-Rocket ships at night. Also, he loves open source, which is why he is a Sidekiq and Hanami committer.
   image: speakers/anton.jpg
+  talk: Viewing Ruby Blossom
   handle: davydovanton
 
 - name: Xavier Noria
   bio: Xavier Noria is an everlasting student and father of the most wonderful girl. An independent Ruby on Rails consultant from Barcelona, Xavier is a member of the Ruby on Rails core team, Ruby Hero, and proud author of Rails Contributors.
   image: speakers/xavier.jpg
+  talk: Little Snippets
   handle: fxn
