@@ -1,7 +1,5 @@
 .schedule {
-  &:last-child {
-    margin-top: 4em;
-  }
+  tr { display: block; }
 
   td, th {
     border: none;
@@ -9,7 +7,7 @@
     text-align: left;
 
     &:nth-child(-n+2) {
-      width: 15%;
+      width: 5em;
     }
   }
 
@@ -24,13 +22,9 @@
     tr:nth-child(odd) {
       background-color: $light-gray;
     }
+  }
 
-    td {
-      .addon {
-        font-size: 1em;
-        font-weight: bold;
-        color: lighten($dark-gray, 40%);
-      }
-    }
+  &:last-child {
+    margin-top: 4em;
   }
 }
