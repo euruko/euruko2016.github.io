@@ -120,3 +120,15 @@ section {
     vertical-align: middle;
   }
 }
+
+img.mc {
+  display: block;
+  float: left;
+  margin-right: $base-spacing;
+  width: em(120px);
+  border-radius: 50%;
+}
+
+.clearfix { 
+  @include clearfix;
+}
