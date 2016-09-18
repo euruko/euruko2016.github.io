@@ -34,7 +34,7 @@
   image: speakers/nick.jpg
   handle: apotonick
 
-- name: Marc-Andre Giroux
+- name: Marc-André Giroux
   bio: A Jazz guitarist turned developer, Marc-André is currently working at Shopify, trying to make commerce better for everyone. When he's not hacking on Rails, GraphQL or Relay, he likes lifting heavy barbells above his head.
   talk: GraphQL on Rails
   image: speakers/giroux.jpg
