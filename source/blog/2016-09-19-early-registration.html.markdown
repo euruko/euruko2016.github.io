@@ -32,7 +32,7 @@ Here’s the deal:
 - **22.09, Thursday**
 - **17:00 – 20:00**
 - **CowOrKing Space by Puzl**, bul. Cherni Vrah 47A, floor 4 (you can get there by
-metro – take the <span style="color: blue; font-weight: bold; ">blue</span> line to the Vitosha Station).
+metro – take the <span style="color: blue; font-weight: bold; ">blue</span> line to the [Vitosha Station](https://en.wikipedia.org/wiki/Vitosha_Metro_Station)).
 
 You'll recognize the tall building by a big sign that says “SIVEN”. The main
 entrance is a sliding door right next to the entrance of LIDL supermarket. Once
@@ -62,4 +62,6 @@ See you there!
     });
   }
 </script>
+
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmQo2_5BXFenNEWdnzaQSV95cMSyeeNFk&callback=initMap" async defer></script>
+
