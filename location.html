@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+
+    <meta property="og:title" content="EuRuKo 2016 – 23-24 September 2016">
+    <meta property="og:site_name" content="EuRuKo 2016">
+    <meta property="og:url" content="http://euruko2016.org/">
+    <meta property="og:description" content="EuRuKo is an annual Ruby conference in Europe. Visit Sofia, Bulgaria on September 23—24, 2016.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="http://euruko2016.org/images/og_card-6ec95bcb.png">
+
+    <title>Location | EuRuKo 2016 - 23-24 September, Sofia</title>
+
+    <link rel="shortcut icon" href="/favicon.ico">
+
+    <link href="stylesheets/all-6965b466.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="header">
+  <div class="wrapper">
+    <a href="/" class="logo">
+      <img src="images/logo-small-463b551f.svg" />
+      <span class="summary">
+        <em>EuRuKo 2016</em><br>23 – 24 September, Sofia
+      </span>
+    </a>
+
+    <nav class="main-nav">
+  <a href="/blog">Blog</a>
+  <a href="/location">Location</a>
+  <a href="/speakers">Speakers</a>
+  <a href="/sponsors">Sponsors</a>
+  <a href="/schedule">Schedule</a>
+  <a class="btn" href="/tickets">Tickets</a>
+</nav>
+
+  </div>
+</div>
+
+
+<section>
+  <div class="wrapper">
+    <h3>About Sofia</h3>
+    <p>Last year, Sofia was voted the host for EuRuKo 2016. Sofia is the capital of Bulgaria, and also the largest city in the country.
+      It's located right in the centre of the Balkan Peninsula, at the foot of Vitosha mountain.
+      With more than 7000 years of history it's one of the oldest cities in Europe. </p>
+
+    <p>One can easily find their way around Sofia by means of the subway. It has two lines and 34 stations,
+      making possible traveling between the city centre and the airport in around 30 minutes for less than 1 euro.
+      Apart from visiting all the historical and cultural sights, you can also enjoy a walk in Sofia’s
+      many parks and gardens, such as South Park, Borisova Garden or even The Vitosha Mountain National Park.</p>
+  </div>
+</section>
+
+<div class="venue-image">
+</div>
+
+<section>
+  <div class="wrapper">
+    <h3>The Venue</h3>
+
+    <p>The National Palace of Culture was built in 1981, to serve as a conference and exhibition centre for various events.
+      The vast exhibition spaces, numerous halls, and spectacular view from the spacious balconies, contribute to its cult status.</p>
+
+    <p>The park around NDK is known as one of the hot spots for youngsters (and not only) and is just few minutes walk from one of Sofia's vibrant pedestrian streets - Vitosha.</p>
+
+    <p>There is a metro station, conveniently located right at the venue entrance. </p>
+
+    <br>
+
+    <div class="gallery">
+      <a class="gallery-item" href="images/venue/1-09590a3b.jpg"><img src="images/venue/thumbs/1-67bb3a88.jpg" /></a>
+      <a class="gallery-item" href="images/venue/2-a55b1eff.jpg"><img src="images/venue/thumbs/2-4b873d23.jpg" /></a>
+      <a class="gallery-item" href="images/venue/4-87cf07b4.jpg"><img src="images/venue/thumbs/4-ca0b87c2.jpg" /></a>
+      <a class="gallery-item" href="images/venue/5-ef43281b.jpg"><img src="images/venue/thumbs/5-f670f90a.jpg" /></a>
+    </div>
+  </div>
+</section>
+
+<div id="map"></div>
+
+<script>
+  var map;
+  var venue_location = {lat: 42.6847664, lng: 23.3189169};
+
+  function initMap() {
+    map = new google.maps.Map(document.getElementById('map'), {
+      center: venue_location,
+      scrollwheel: false,
+      zoom: 16
+    });
+
+    var marker = new google.maps.Marker({
+      position: venue_location,
+      map: map,
+      title: 'National Palace of Culture',
+      icon: 'images/map-pin-6cb24f97.svg'
+    });
+  }
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmQo2_5BXFenNEWdnzaQSV95cMSyeeNFk&callback=initMap" async defer></script>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.1.6/zepto.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+<script>
+$('.gallery-item').magnificPopup({
+  type: 'image',
+  gallery:{
+    enabled:true
+  }
+  });
+</script>
+
+
+<section class="footer">
+  <div class="wrapper">
+    <div class="col">
+      <h6>EuRuKo 2016</h6>
+
+      <p class="text-muted">
+        23 – 24 September<br>
+        Sofia, Bulgaria
+      </p>
+      <ul>
+        <li><a href="mailto:hi@euruko2016.org">hi@euruko2016.org</a></li>
+        <li><a href="https://twitter.com/euruko">@euruko</a></li>
+      </ul>
+    </div>
+
+    <div class="col">
+      <h6>Information</h6>
+
+      <ul>
+        <li><a href="/tickets">Tickets</a></li>
+        <li><a target="_blank" href="http://berlincodeofconduct.org/">Code of Conduct</a></li>
+        <li><a href="/legal-information">Legal Information</a></li>
+        <li><a target="_blank" href="http://euruko.org/">Previous Events</a></li>
+      </ul>
+    </div>
+
+    <div class="highlighted-sponsors">
+      <div class="wrapper">
+        <h6>Thanks to the Unicorns!</h6>
+
+        <div class="unicorn-list">
+          <div class="sponsor">
+            <a target="_blank" href="http://www.receipt-bank.com"><img src="images/sponsors/receipt_bank_logo_footer-b8d8d171.svg" /></a>
+          </div>
+          <div class="sponsor">
+            <a target="_blank" href="https://www.toptal.com"><img src="images/sponsors/toptal_logo_footer-29681655.svg" /></a>
+          </div>
+          <div class="sponsor">
+            <a target="_blank" href="https://www.emerchantpay.com"><img src="images/sponsors/emerchantpay_logo_footer-91882e0f.svg" /></a>
+          </div>
+          <div class="sponsor">
+            <a href="/sponsorship-packages"><img src="images/become-sponsor-797eb0c0.svg" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-72384414-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </body>
+</html>
